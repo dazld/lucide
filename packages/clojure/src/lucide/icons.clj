@@ -268,12 +268,7 @@
     :strokeLinecap "round",
     :height (or height "24")}
    [:rect
-    {:ry "2",
-     :rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+    {:ry "2", :rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:polyline {:points "11 3 11 11 14 8 17 11 17 3"}]]))
 (defn
  align-center-horizontal
@@ -344,18 +339,8 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "2",
-     :x "4",
-     :height (or height "24"),
-     :width (or width "24")}]
-   [:rect
-    {:rx "2",
-     :y "9",
-     :x "14",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "2", :x "4", :height "16", :width "6"}]
+   [:rect {:rx "2", :y "9", :x "14", :height "9", :width "6"}]
    [:path {:d "M22 22H2"}]]))
 (defn
  align-end-vertical
@@ -371,18 +356,8 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "4",
-     :x "2",
-     :height (or height "24"),
-     :width (or width "24")}]
-   [:rect
-    {:rx "2",
-     :y "14",
-     :x "9",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "4", :x "2", :height "6", :width "16"}]
+   [:rect {:rx "2", :y "14", :x "9", :height "6", :width "9"}]
    [:path {:d "M22 22V2"}]]))
 (defn
  align-horizontal-distribute-center
@@ -398,18 +373,8 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "5",
-     :x "4",
-     :height (or height "24"),
-     :width (or width "24")}]
-   [:rect
-    {:rx "2",
-     :y "7",
-     :x "14",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "5", :x "4", :height "14", :width "6"}]
+   [:rect {:rx "2", :y "7", :x "14", :height "10", :width "6"}]
    [:path {:d "M17 22v-5"}]
    [:path {:d "M17 7V2"}]
    [:path {:d "M7 22v-3"}]
@@ -428,18 +393,8 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "5",
-     :x "4",
-     :height (or height "24"),
-     :width (or width "24")}]
-   [:rect
-    {:rx "2",
-     :y "7",
-     :x "14",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "5", :x "4", :height "14", :width "6"}]
+   [:rect {:rx "2", :y "7", :x "14", :height "10", :width "6"}]
    [:path {:d "M10 2v20"}]
    [:path {:d "M20 2v20"}]]))
 (defn
@@ -456,18 +411,8 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "5",
-     :x "4",
-     :height (or height "24"),
-     :width (or width "24")}]
-   [:rect
-    {:rx "2",
-     :y "7",
-     :x "14",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "5", :x "4", :height "14", :width "6"}]
+   [:rect {:rx "2", :y "7", :x "14", :height "10", :width "6"}]
    [:path {:d "M4 2v20"}]
    [:path {:d "M14 2v20"}]]))
 (defn
@@ -484,18 +429,8 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "5",
-     :x "2",
-     :height (or height "24"),
-     :width (or width "24")}]
-   [:rect
-    {:rx "2",
-     :y "7",
-     :x "16",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "5", :x "2", :height "14", :width "6"}]
+   [:rect {:rx "2", :y "7", :x "16", :height "10", :width "6"}]
    [:path {:d "M12 2v20"}]]))
 (defn
  align-horizontal-justify-end
@@ -511,18 +446,8 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "5",
-     :x "2",
-     :height (or height "24"),
-     :width (or width "24")}]
-   [:rect
-    {:rx "2",
-     :y "7",
-     :x "12",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "5", :x "2", :height "14", :width "6"}]
+   [:rect {:rx "2", :y "7", :x "12", :height "10", :width "6"}]
    [:path {:d "M22 2v20"}]]))
 (defn
  align-horizontal-justify-start
@@ -538,18 +463,8 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "5",
-     :x "6",
-     :height (or height "24"),
-     :width (or width "24")}]
-   [:rect
-    {:rx "2",
-     :y "7",
-     :x "16",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "5", :x "6", :height "14", :width "6"}]
+   [:rect {:rx "2", :y "7", :x "16", :height "10", :width "6"}]
    [:path {:d "M2 2v20"}]]))
 (defn
  align-horizontal-space-around
@@ -565,12 +480,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "7",
-     :x "9",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "7", :x "9", :height "10", :width "6"}]
    [:path {:d "M4 22V2"}]
    [:path {:d "M20 22V2"}]]))
 (defn
@@ -587,18 +497,8 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "5",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
-   [:rect
-    {:rx "2",
-     :y "7",
-     :x "15",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "5", :x "3", :height "14", :width "6"}]
+   [:rect {:rx "2", :y "7", :x "15", :height "10", :width "6"}]
    [:path {:d "M3 2v20"}]
    [:path {:d "M21 2v20"}]]))
 (defn
@@ -666,18 +566,8 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "6",
-     :x "4",
-     :height (or height "24"),
-     :width (or width "24")}]
-   [:rect
-    {:rx "2",
-     :y "6",
-     :x "14",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "6", :x "4", :height "16", :width "6"}]
+   [:rect {:rx "2", :y "6", :x "14", :height "9", :width "6"}]
    [:path {:d "M22 2H2"}]]))
 (defn
  align-start-vertical
@@ -693,18 +583,8 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "14",
-     :x "6",
-     :height (or height "24"),
-     :width (or width "24")}]
-   [:rect
-    {:rx "2",
-     :y "4",
-     :x "6",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "14", :x "6", :height "6", :width "9"}]
+   [:rect {:rx "2", :y "4", :x "6", :height "6", :width "16"}]
    [:path {:d "M2 2v20"}]]))
 (defn
  align-vertical-distribute-center
@@ -724,18 +604,8 @@
    [:path {:d "M22 7h-5"}]
    [:path {:d "M5 17H2"}]
    [:path {:d "M7 7H2"}]
-   [:rect
-    {:rx "2",
-     :height (or height "24"),
-     :width (or width "24"),
-     :y "14",
-     :x "5"}]
-   [:rect
-    {:rx "2",
-     :height (or height "24"),
-     :width (or width "24"),
-     :y "4",
-     :x "7"}]]))
+   [:rect {:rx "2", :height "6", :width "14", :y "14", :x "5"}]
+   [:rect {:rx "2", :height "6", :width "10", :y "4", :x "7"}]]))
 (defn
  align-vertical-distribute-end
  ([] (align-vertical-distribute-end {}))
@@ -750,18 +620,8 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "14",
-     :x "5",
-     :height (or height "24"),
-     :width (or width "24")}]
-   [:rect
-    {:rx "2",
-     :y "4",
-     :x "7",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "14", :x "5", :height "6", :width "14"}]
+   [:rect {:rx "2", :y "4", :x "7", :height "6", :width "10"}]
    [:path {:d "M2 20h20"}]
    [:path {:d "M2 10h20"}]]))
 (defn
@@ -778,18 +638,8 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "14",
-     :x "5",
-     :height (or height "24"),
-     :width (or width "24")}]
-   [:rect
-    {:rx "2",
-     :y "4",
-     :x "7",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "14", :x "5", :height "6", :width "14"}]
+   [:rect {:rx "2", :y "4", :x "7", :height "6", :width "10"}]
    [:path {:d "M2 14h20"}]
    [:path {:d "M2 4h20"}]]))
 (defn
@@ -806,18 +656,8 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "16",
-     :x "5",
-     :height (or height "24"),
-     :width (or width "24")}]
-   [:rect
-    {:rx "2",
-     :y "2",
-     :x "7",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "16", :x "5", :height "6", :width "14"}]
+   [:rect {:rx "2", :y "2", :x "7", :height "6", :width "10"}]
    [:path {:d "M2 12h20"}]]))
 (defn
  align-vertical-justify-end
@@ -833,18 +673,8 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "12",
-     :x "5",
-     :height (or height "24"),
-     :width (or width "24")}]
-   [:rect
-    {:rx "2",
-     :y "2",
-     :x "7",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "12", :x "5", :height "6", :width "14"}]
+   [:rect {:rx "2", :y "2", :x "7", :height "6", :width "10"}]
    [:path {:d "M2 22h20"}]]))
 (defn
  align-vertical-justify-start
@@ -860,18 +690,8 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "16",
-     :x "5",
-     :height (or height "24"),
-     :width (or width "24")}]
-   [:rect
-    {:rx "2",
-     :y "6",
-     :x "7",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "16", :x "5", :height "6", :width "14"}]
+   [:rect {:rx "2", :y "6", :x "7", :height "6", :width "10"}]
    [:path {:d "M2 2h20"}]]))
 (defn
  align-vertical-space-around
@@ -887,12 +707,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "9",
-     :x "7",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "9", :x "7", :height "6", :width "10"}]
    [:path {:d "M22 20H2"}]
    [:path {:d "M22 4H2"}]]))
 (defn
@@ -909,18 +724,8 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "15",
-     :x "5",
-     :height (or height "24"),
-     :width (or width "24")}]
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "7",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "15", :x "5", :height "6", :width "14"}]
+   [:rect {:rx "2", :y "3", :x "7", :height "6", :width "10"}]
    [:path {:d "M2 21h20"}]
    [:path {:d "M2 3h20"}]]))
 (defn
@@ -1142,12 +947,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "4",
-     :x "2",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "4", :x "2", :height "16", :width "20"}]
    [:path {:d "M6 8h.01"}]
    [:path {:d "M10 8h.01"}]
    [:path {:d "M14 8h.01"}]]))
@@ -1165,12 +965,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :height (or height "24"),
-     :width (or width "24"),
-     :y "4",
-     :x "2"}]
+   [:rect {:rx "2", :height "16", :width "20", :y "4", :x "2"}]
    [:path {:d "M10 4v4"}]
    [:path {:d "M2 8h20"}]
    [:path {:d "M6 4v4"}]]))
@@ -1206,12 +1001,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "1",
-     :y "3",
-     :x "2",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "1", :y "3", :x "2", :height "5", :width "20"}]
    [:path {:d "M4 8v11a2 2 0 0 0 2 2h2"}]
    [:path {:d "M20 8v11a2 2 0 0 1-2 2h-2"}]
    [:path {:d "m9 15 3-3 3 3"}]
@@ -1230,12 +1020,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "1",
-     :y "3",
-     :x "2",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "1", :y "3", :x "2", :height "5", :width "20"}]
    [:path {:d "M4 8v11a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8"}]
    [:path {:d "m9.5 17 5-5"}]
    [:path {:d "m9.5 12 5 5"}]]))
@@ -1253,12 +1038,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "1",
-     :y "3",
-     :x "2",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "1", :y "3", :x "2", :height "5", :width "20"}]
    [:path {:d "M4 8v11a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8"}]
    [:path {:d "M10 12h4"}]]))
 (defn
@@ -1421,12 +1201,7 @@
     :height (or height "24")}
    [:path {:d "m3 16 4 4 4-4"}]
    [:path {:d "M7 20V4"}]
-   [:rect
-    {:ry "2",
-     :height (or height "24"),
-     :width (or width "24"),
-     :y "4",
-     :x "15"}]
+   [:rect {:ry "2", :height "6", :width "4", :y "4", :x "15"}]
    [:path {:d "M17 20v-6h-2"}]
    [:path {:d "M15 20h4"}]]))
 (defn
@@ -1447,12 +1222,7 @@
    [:path {:d "M7 20V4"}]
    [:path {:d "M17 10V4h-2"}]
    [:path {:d "M15 10h4"}]
-   [:rect
-    {:ry "2",
-     :height (or height "24"),
-     :width (or width "24"),
-     :y "14",
-     :x "15"}]]))
+   [:rect {:ry "2", :height "6", :width "4", :y "14", :x "15"}]]))
 (defn
  arrow-down-a-z
  ([] (arrow-down-a-z {}))
@@ -1798,12 +1568,7 @@
     :height (or height "24")}
    [:path {:d "m3 8 4-4 4 4"}]
    [:path {:d "M7 4v16"}]
-   [:rect
-    {:ry "2",
-     :height (or height "24"),
-     :width (or width "24"),
-     :y "4",
-     :x "15"}]
+   [:rect {:ry "2", :height "6", :width "4", :y "4", :x "15"}]
    [:path {:d "M17 20v-6h-2"}]
    [:path {:d "M15 20h4"}]]))
 (defn
@@ -1824,12 +1589,7 @@
    [:path {:d "M7 4v16"}]
    [:path {:d "M17 10V4h-2"}]
    [:path {:d "M15 10h4"}]
-   [:rect
-    {:ry "2",
-     :height (or height "24"),
-     :width (or width "24"),
-     :y "14",
-     :x "15"}]]))
+   [:rect {:ry "2", :height "6", :width "4", :y "14", :x "15"}]]))
 (defn
  arrow-up-a-z
  ([] (arrow-up-a-z {}))
@@ -2565,12 +2325,7 @@
     :height (or height "24")}
    [:path {:d "M22 18H6a2 2 0 0 1-2-2V7a2 2 0 0 0-2-2"}]
    [:path {:d "M17 14V4a2 2 0 0 0-2-2h-1a2 2 0 0 0-2 2v10"}]
-   [:rect
-    {:rx "1",
-     :y "6",
-     :x "8",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "1", :y "6", :x "8", :height "8", :width "13"}]
    [:circle {:r "2", :cy "20", :cx "18"}]
    [:circle {:r "2", :cy "20", :cx "9"}]]))
 (defn
@@ -2627,12 +2382,7 @@
    [:path {:d "M14 14.01h.01"}]
    [:path {:d "M18 6v11.5"}]
    [:path {:d "M6 6v12"}]
-   [:rect
-    {:rx "2",
-     :height (or height "24"),
-     :width (or width "24"),
-     :y "6",
-     :x "2"}]]))
+   [:rect {:rx "2", :height "12", :width "20", :y "6", :x "2"}]]))
 (defn
  banknote-arrow-down
  ([] (banknote-arrow-down {}))
@@ -2710,12 +2460,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "6",
-     :x "2",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "6", :x "2", :height "12", :width "20"}]
    [:circle {:r "2", :cy "12", :cx "12"}]
    [:path {:d "M6 12h.01M18 12h.01"}]]))
 (defn
@@ -2808,12 +2553,7 @@
     :strokeLinecap "round",
     :height (or height "24")}
    [:rect
-    {:ry "2",
-     :rx "2",
-     :y "7",
-     :x "2",
-     :height (or height "24"),
-     :width (or width "24")}]
+    {:ry "2", :rx "2", :y "7", :x "2", :height "10", :width "16"}]
    [:line {:y2 "13", :y1 "11", :x2 "22", :x1 "22"}]
    [:line {:y2 "13", :y1 "11", :x2 "6", :x1 "6"}]
    [:line {:y2 "13", :y1 "11", :x2 "10", :x1 "10"}]
@@ -2833,12 +2573,7 @@
     :strokeLinecap "round",
     :height (or height "24")}
    [:rect
-    {:ry "2",
-     :rx "2",
-     :y "7",
-     :x "2",
-     :height (or height "24"),
-     :width (or width "24")}]
+    {:ry "2", :rx "2", :y "7", :x "2", :height "10", :width "16"}]
    [:line {:y2 "13", :y1 "11", :x2 "22", :x1 "22"}]
    [:line {:y2 "13", :y1 "11", :x2 "6", :x1 "6"}]]))
 (defn
@@ -2856,12 +2591,7 @@
     :strokeLinecap "round",
     :height (or height "24")}
    [:rect
-    {:ry "2",
-     :rx "2",
-     :y "7",
-     :x "2",
-     :height (or height "24"),
-     :width (or width "24")}]
+    {:ry "2", :rx "2", :y "7", :x "2", :height "10", :width "16"}]
    [:line {:y2 "13", :y1 "11", :x2 "22", :x1 "22"}]
    [:line {:y2 "13", :y1 "11", :x2 "6", :x1 "6"}]
    [:line {:y2 "13", :y1 "11", :x2 "10", :x1 "10"}]]))
@@ -2918,12 +2648,7 @@
     :strokeLinecap "round",
     :height (or height "24")}
    [:rect
-    {:ry "2",
-     :rx "2",
-     :y "7",
-     :x "2",
-     :height (or height "24"),
-     :width (or width "24")}]
+    {:ry "2", :rx "2", :y "7", :x "2", :height "10", :width "16"}]
    [:line {:y2 "13", :y1 "11", :x2 "22", :x1 "22"}]]))
 (defn
  beaker
@@ -3140,12 +2865,7 @@
    [:path {:d "M18.8 4A6.3 8.7 0 0 1 20 9"}]
    [:path {:d "M9 9h.01"}]
    [:circle {:r "7", :cy "9", :cx "9"}]
-   [:rect
-    {:rx "2",
-     :y "16",
-     :x "4",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "16", :x "4", :height "6", :width "10"}]
    [:path {:d "M14 19c3 0 4.6-1.6 4.6-1.6"}]
    [:circle {:r "2", :cy "16", :cx "20"}]]))
 (defn
@@ -3260,19 +2980,9 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "1",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "1", :y "3", :x "3", :height "7", :width "13"}]
    [:path {:d "m22 15-3-3 3-3"}]
-   [:rect
-    {:rx "1",
-     :y "14",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]]))
+   [:rect {:rx "1", :y "14", :x "3", :height "7", :width "13"}]]))
 (defn
  between-horizontal-start
  ([] (between-horizontal-start {}))
@@ -3287,19 +2997,9 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "1",
-     :y "3",
-     :x "8",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "1", :y "3", :x "8", :height "7", :width "13"}]
    [:path {:d "m2 9 3 3-3 3"}]
-   [:rect
-    {:rx "1",
-     :y "14",
-     :x "8",
-     :height (or height "24"),
-     :width (or width "24")}]]))
+   [:rect {:rx "1", :y "14", :x "8", :height "7", :width "13"}]]))
 (defn
  between-vertical-end
  ([] (between-vertical-end {}))
@@ -3314,19 +3014,9 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "1",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "1", :y "3", :x "3", :height "13", :width "7"}]
    [:path {:d "m9 22 3-3 3 3"}]
-   [:rect
-    {:rx "1",
-     :y "3",
-     :x "14",
-     :height (or height "24"),
-     :width (or width "24")}]]))
+   [:rect {:rx "1", :y "3", :x "14", :height "13", :width "7"}]]))
 (defn
  between-vertical-start
  ([] (between-vertical-start {}))
@@ -3341,19 +3031,9 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "1",
-     :y "8",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "1", :y "8", :x "3", :height "13", :width "7"}]
    [:path {:d "m15 2-3 3-3-3"}]
-   [:rect
-    {:rx "1",
-     :y "8",
-     :x "14",
-     :height (or height "24"),
-     :width (or width "24")}]]))
+   [:rect {:rx "1", :y "8", :x "14", :height "13", :width "7"}]]))
 (defn
  biceps-flexed
  ([] (biceps-flexed {}))
@@ -3405,18 +3085,8 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :height (or height "24"),
-     :width (or width "24"),
-     :y "14",
-     :x "14"}]
-   [:rect
-    {:rx "2",
-     :height (or height "24"),
-     :width (or width "24"),
-     :y "4",
-     :x "6"}]
+   [:rect {:rx "2", :height "6", :width "4", :y "14", :x "14"}]
+   [:rect {:rx "2", :height "6", :width "4", :y "4", :x "6"}]
    [:path {:d "M6 20h4"}]
    [:path {:d "M14 10h4"}]
    [:path {:d "M6 14h2v6"}]
@@ -3558,12 +3228,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "1",
-     :y "3",
-     :x "14",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "1", :y "3", :x "14", :height "7", :width "7"}]
    [:path
     {:d
      "M10 21V8a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-5a1 1 0 0 0-1-1H3"}]]))
@@ -3919,12 +3584,7 @@
    [:path {:d "M18 6V4a2 2 0 1 0-4 0v2"}]
    [:path {:d "M20 15v6a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20"}]
    [:path {:d "M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H10"}]
-   [:rect
-    {:rx "1",
-     :height (or height "24"),
-     :width (or width "24"),
-     :y "6",
-     :x "12"}]]))
+   [:rect {:rx "1", :height "5", :width "8", :y "6", :x "12"}]]))
 (defn
  book-marked
  ([] (book-marked {}))
@@ -4271,12 +3931,7 @@
    [:path {:d "M8 8v1"}]
    [:path {:d "M12 8v1"}]
    [:path {:d "M16 8v1"}]
-   [:rect
-    {:rx "2",
-     :y "9",
-     :x "2",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "9", :x "2", :height "12", :width "20"}]
    [:circle {:r "2", :cy "15", :cx "8"}]
    [:circle {:r "2", :cy "15", :cx "16"}]]))
 (defn
@@ -4338,12 +3993,7 @@
     :strokeLinecap "round",
     :height (or height "24")}
    [:path {:d "M12 8V4H8"}]
-   [:rect
-    {:rx "2",
-     :y "8",
-     :x "4",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "8", :x "4", :height "12", :width "16"}]
    [:path {:d "M2 14h2"}]
    [:path {:d "M20 14h2"}]
    [:path {:d "M15 13v2"}]
@@ -4537,12 +4187,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "M12 9v6"}]
    [:path {:d "M16 15v6"}]
    [:path {:d "M16 3v6"}]
@@ -4567,12 +4212,7 @@
    [:path {:d "M12 12h.01"}]
    [:path {:d "M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"}]
    [:path {:d "M22 13a18.15 18.15 0 0 1-20 0"}]
-   [:rect
-    {:rx "2",
-     :y "6",
-     :x "2",
-     :height (or height "24"),
-     :width (or width "24")}]]))
+   [:rect {:rx "2", :y "6", :x "2", :height "14", :width "20"}]]))
 (defn
  briefcase-conveyor-belt
  ([] (briefcase-conveyor-belt {}))
@@ -4593,12 +4233,7 @@
    [:path {:d "M21 20H3"}]
    [:path {:d "M6 20v2"}]
    [:path {:d "M8 16V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v12"}]
-   [:rect
-    {:rx "2",
-     :height (or height "24"),
-     :width (or width "24"),
-     :y "6",
-     :x "4"}]]))
+   [:rect {:rx "2", :height "10", :width "16", :y "6", :x "4"}]]))
 (defn
  briefcase-medical
  ([] (briefcase-medical {}))
@@ -4618,12 +4253,7 @@
    [:path {:d "M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"}]
    [:path {:d "M18 6v14"}]
    [:path {:d "M6 6v14"}]
-   [:rect
-    {:rx "2",
-     :y "6",
-     :x "2",
-     :height (or height "24"),
-     :width (or width "24")}]]))
+   [:rect {:rx "2", :y "6", :x "2", :height "14", :width "20"}]]))
 (defn
  briefcase
  ([] (briefcase {}))
@@ -4639,12 +4269,7 @@
     :strokeLinecap "round",
     :height (or height "24")}
    [:path {:d "M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"}]
-   [:rect
-    {:rx "2",
-     :y "6",
-     :x "2",
-     :height (or height "24"),
-     :width (or width "24")}]]))
+   [:rect {:rx "2", :y "6", :x "2", :height "14", :width "20"}]]))
 (defn
  bring-to-front
  ([] (bring-to-front {}))
@@ -4659,12 +4284,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :height (or height "24"),
-     :width (or width "24"),
-     :y "8",
-     :x "8"}]
+   [:rect {:rx "2", :height "8", :width "8", :y "8", :x "8"}]
    [:path {:d "M4 10a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2"}]
    [:path
     {:d "M14 20a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2"}]]))
@@ -4799,12 +4419,7 @@
     :strokeLinecap "round",
     :height (or height "24")}
    [:rect
-    {:ry "2",
-     :rx "2",
-     :y "2",
-     :x "4",
-     :height (or height "24"),
-     :width (or width "24")}]
+    {:ry "2", :rx "2", :y "2", :x "4", :height "20", :width "16"}]
    [:path {:d "M9 22v-4h6v4"}]
    [:path {:d "M8 6h.01"}]
    [:path {:d "M16 6h.01"}]
@@ -4832,12 +4447,7 @@
    [:path {:d "M4 6 2 7"}]
    [:path {:d "M10 6h4"}]
    [:path {:d "m22 7-2-1"}]
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "4",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "4", :height "16", :width "16"}]
    [:path {:d "M4 11h16"}]
    [:path {:d "M8 15h.01"}]
    [:path {:d "M16 15h.01"}]
@@ -4884,12 +4494,7 @@
    [:path {:d "M14 2h.01"}]
    [:path {:d "m2 9 20-5"}]
    [:path {:d "M12 12V6.5"}]
-   [:rect
-    {:rx "3",
-     :y "12",
-     :x "4",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "3", :y "12", :x "4", :height "10", :width "16"}]
    [:path {:d "M9 12v5"}]
    [:path {:d "M15 12v5"}]
    [:path {:d "M4 17h16"}]]))
@@ -4973,12 +4578,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "2",
-     :x "4",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "2", :x "4", :height "20", :width "16"}]
    [:line {:y2 "6", :y1 "6", :x2 "16", :x1 "8"}]
    [:line {:y2 "18", :y1 "14", :x2 "16", :x1 "16"}]
    [:path {:d "M16 10h.01"}]
@@ -5006,12 +4606,7 @@
    [:path {:d "M16 2v4"}]
    [:path {:d "M3 10h18"}]
    [:path {:d "M8 2v4"}]
-   [:rect
-    {:rx "2",
-     :height (or height "24"),
-     :width (or width "24"),
-     :y "4",
-     :x "3"}]]))
+   [:rect {:rx "2", :height "18", :width "18", :y "4", :x "3"}]]))
 (defn
  calendar-arrow-down
  ([] (calendar-arrow-down {}))
@@ -5092,12 +4687,7 @@
     :height (or height "24")}
    [:path {:d "M8 2v4"}]
    [:path {:d "M16 2v4"}]
-   [:rect
-    {:rx "2",
-     :y "4",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "4", :x "3", :height "18", :width "18"}]
    [:path {:d "M3 10h18"}]
    [:path {:d "m9 16 2 2 4-4"}]]))
 (defn
@@ -5166,12 +4756,7 @@
     :height (or height "24")}
    [:path {:d "M8 2v4"}]
    [:path {:d "M16 2v4"}]
-   [:rect
-    {:rx "2",
-     :y "4",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "4", :x "3", :height "18", :width "18"}]
    [:path {:d "M3 10h18"}]
    [:path {:d "M8 14h.01"}]
    [:path {:d "M12 14h.01"}]
@@ -5236,12 +4821,7 @@
     :height (or height "24")}
    [:path {:d "M8 2v4"}]
    [:path {:d "M16 2v4"}]
-   [:rect
-    {:rx "2",
-     :y "4",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "4", :x "3", :height "18", :width "18"}]
    [:path {:d "M3 10h18"}]
    [:path {:d "M10 16h4"}]]))
 (defn
@@ -5302,12 +4882,7 @@
     :height (or height "24")}
    [:path {:d "M8 2v4"}]
    [:path {:d "M16 2v4"}]
-   [:rect
-    {:rx "2",
-     :y "4",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "4", :x "3", :height "18", :width "18"}]
    [:path {:d "M3 10h18"}]
    [:path {:d "M10 16h4"}]
    [:path {:d "M12 14v4"}]]))
@@ -5346,12 +4921,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "4",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "4", :x "3", :height "18", :width "18"}]
    [:path {:d "M16 2v4"}]
    [:path {:d "M3 10h18"}]
    [:path {:d "M8 2v4"}]
@@ -5442,12 +5012,7 @@
     :height (or height "24")}
    [:path {:d "M8 2v4"}]
    [:path {:d "M16 2v4"}]
-   [:rect
-    {:rx "2",
-     :y "4",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "4", :x "3", :height "18", :width "18"}]
    [:path {:d "M3 10h18"}]
    [:path {:d "m14 14-4 4"}]
    [:path {:d "m10 14 4 4"}]]))
@@ -5467,12 +5032,7 @@
     :height (or height "24")}
    [:path {:d "M8 2v4"}]
    [:path {:d "M16 2v4"}]
-   [:rect
-    {:rx "2",
-     :y "4",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "4", :x "3", :height "18", :width "18"}]
    [:path {:d "M3 10h18"}]]))
 (defn
  camera-off
@@ -5636,12 +5196,7 @@
     :strokeLinecap "round",
     :height (or height "24")}
    [:rect
-    {:ry "2",
-     :rx "2",
-     :y "5",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+    {:ry "2", :rx "2", :y "5", :x "3", :height "14", :width "18"}]
    [:path {:d "M7 15h4M15 15h2M7 11h2M13 11h4"}]]))
 (defn
  car-front
@@ -5662,12 +5217,7 @@
      "m21 8-2 2-1.5-3.7A2 2 0 0 0 15.646 5H8.4a2 2 0 0 0-1.903 1.257L5 10 3 8"}]
    [:path {:d "M7 14h.01"}]
    [:path {:d "M17 14h.01"}]
-   [:rect
-    {:rx "2",
-     :y "10",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "10", :x "3", :height "8", :width "18"}]
    [:path {:d "M5 18v2"}]
    [:path {:d "M19 18v2"}]]))
 (defn
@@ -5690,12 +5240,7 @@
      "m21 8-2 2-1.5-3.7A2 2 0 0 0 15.646 5H8.4a2 2 0 0 0-1.903 1.257L5 10 3 8"}]
    [:path {:d "M7 14h.01"}]
    [:path {:d "M17 14h.01"}]
-   [:rect
-    {:rx "2",
-     :y "10",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "10", :x "3", :height "8", :width "18"}]
    [:path {:d "M5 18v2"}]
    [:path {:d "M19 18v2"}]]))
 (defn
@@ -5829,12 +5374,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "4",
-     :x "2",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "4", :x "2", :height "16", :width "20"}]
    [:circle {:r "2", :cy "10", :cx "8"}]
    [:path {:d "M8 12h8"}]
    [:circle {:r "2", :cy "10", :cx "16"}]
@@ -5959,18 +5499,8 @@
     :strokeLinecap "round",
     :height (or height "24")}
    [:path {:d "M3 3v16a2 2 0 0 0 2 2h16"}]
-   [:rect
-    {:rx "1",
-     :height (or height "24"),
-     :width (or width "24"),
-     :y "13",
-     :x "7"}]
-   [:rect
-    {:rx "1",
-     :height (or height "24"),
-     :width (or width "24"),
-     :y "5",
-     :x "7"}]]))
+   [:rect {:rx "1", :height "4", :width "9", :y "13", :x "7"}]
+   [:rect {:rx "1", :height "4", :width "12", :y "5", :x "7"}]]))
 (defn
  chart-bar-decreasing
  ([] (chart-bar-decreasing {}))
@@ -6024,18 +5554,8 @@
    [:path {:d "M11 13v4"}]
    [:path {:d "M15 5v4"}]
    [:path {:d "M3 3v16a2 2 0 0 0 2 2h16"}]
-   [:rect
-    {:rx "1",
-     :height (or height "24"),
-     :width (or width "24"),
-     :y "13",
-     :x "7"}]
-   [:rect
-    {:rx "1",
-     :height (or height "24"),
-     :width (or width "24"),
-     :y "5",
-     :x "7"}]]))
+   [:rect {:rx "1", :height "4", :width "9", :y "13", :x "7"}]
+   [:rect {:rx "1", :height "4", :width "12", :y "5", :x "7"}]]))
 (defn
  chart-bar
  ([] (chart-bar {}))
@@ -6069,20 +5589,10 @@
     :strokeLinecap "round",
     :height (or height "24")}
    [:path {:d "M9 5v4"}]
-   [:rect
-    {:rx "1",
-     :y "9",
-     :x "7",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "1", :y "9", :x "7", :height "6", :width "4"}]
    [:path {:d "M9 15v2"}]
    [:path {:d "M17 3v2"}]
-   [:rect
-    {:rx "1",
-     :y "5",
-     :x "15",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "1", :y "5", :x "15", :height "8", :width "4"}]
    [:path {:d "M17 13v3"}]
    [:path {:d "M3 3v16a2 2 0 0 0 2 2h16"}]]))
 (defn
@@ -6100,18 +5610,8 @@
     :strokeLinecap "round",
     :height (or height "24")}
    [:path {:d "M3 3v16a2 2 0 0 0 2 2h16"}]
-   [:rect
-    {:rx "1",
-     :height (or height "24"),
-     :width (or width "24"),
-     :y "5",
-     :x "15"}]
-   [:rect
-    {:rx "1",
-     :height (or height "24"),
-     :width (or width "24"),
-     :y "8",
-     :x "7"}]]))
+   [:rect {:rx "1", :height "12", :width "4", :y "5", :x "15"}]
+   [:rect {:rx "1", :height "9", :width "4", :y "8", :x "7"}]]))
 (defn
  chart-column-decreasing
  ([] (chart-column-decreasing {}))
@@ -6165,18 +5665,8 @@
    [:path {:d "M11 13H7"}]
    [:path {:d "M19 9h-4"}]
    [:path {:d "M3 3v16a2 2 0 0 0 2 2h16"}]
-   [:rect
-    {:rx "1",
-     :height (or height "24"),
-     :width (or width "24"),
-     :y "5",
-     :x "15"}]
-   [:rect
-    {:rx "1",
-     :height (or height "24"),
-     :width (or width "24"),
-     :y "8",
-     :x "7"}]]))
+   [:rect {:rx "1", :height "12", :width "4", :y "5", :x "15"}]
+   [:rect {:rx "1", :height "9", :width "4", :y "8", :x "7"}]]))
 (defn
  chart-column
  ([] (chart-column {}))
@@ -7453,12 +6943,7 @@
     :strokeLinecap "round",
     :height (or height "24")}
    [:circle {:r "10", :cy "12", :cx "12"}]
-   [:rect
-    {:rx "1",
-     :height (or height "24"),
-     :width (or width "24"),
-     :y "9",
-     :x "9"}]]))
+   [:rect {:rx "1", :height "6", :width "6", :y "9", :x "9"}]]))
 (defn
  circle-user-round
  ([] (circle-user-round {}))
@@ -7539,12 +7024,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "M11 9h4a2 2 0 0 0 2-2V3"}]
    [:circle {:r "2", :cy "9", :cx "9"}]
    [:path {:d "M7 21v-4a2 2 0 0 1 2-2h4"}]
@@ -7603,13 +7083,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:ry "1",
-     :rx "1",
-     :y "2",
-     :x "8",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:ry "1", :rx "1", :y "2", :x "8", :height "4", :width "8"}]
    [:path
     {:d
      "M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"}]
@@ -7628,13 +7102,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:ry "1",
-     :rx "1",
-     :y "2",
-     :x "8",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:ry "1", :rx "1", :y "2", :x "8", :height "4", :width "8"}]
    [:path
     {:d "M8 4H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"}]
    [:path {:d "M16 4h2a2 2 0 0 1 2 2v4"}]
@@ -7654,13 +7122,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:ry "1",
-     :rx "1",
-     :y "2",
-     :x "8",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:ry "1", :rx "1", :y "2", :x "8", :height "4", :width "8"}]
    [:path
     {:d
      "M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"}]
@@ -7682,13 +7144,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:ry "1",
-     :rx "1",
-     :y "2",
-     :x "8",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:ry "1", :rx "1", :y "2", :x "8", :height "4", :width "8"}]
    [:path
     {:d
      "M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"}]
@@ -7728,12 +7184,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "1",
-     :y "2",
-     :x "8",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "1", :y "2", :x "8", :height "4", :width "8"}]
    [:path
     {:d "M8 4H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-.5"}]
    [:path {:d "M16 4h2a2 2 0 0 1 1.73 1"}]
@@ -7755,12 +7206,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "1",
-     :y "2",
-     :x "8",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "1", :y "2", :x "8", :height "4", :width "8"}]
    [:path {:d "M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-5.5"}]
    [:path {:d "M4 13.5V6a2 2 0 0 1 2-2h2"}]
    [:path
@@ -7780,13 +7226,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:ry "1",
-     :rx "1",
-     :y "2",
-     :x "8",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:ry "1", :rx "1", :y "2", :x "8", :height "4", :width "8"}]
    [:path
     {:d
      "M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"}]
@@ -7806,13 +7246,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:ry "1",
-     :rx "1",
-     :y "2",
-     :x "8",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:ry "1", :rx "1", :y "2", :x "8", :height "4", :width "8"}]
    [:path
     {:d
      "M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"}]
@@ -7833,13 +7267,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:ry "1",
-     :rx "1",
-     :y "2",
-     :x "8",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:ry "1", :rx "1", :y "2", :x "8", :height "4", :width "8"}]
    [:path
     {:d
      "M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"}]
@@ -7859,13 +7287,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:ry "1",
-     :rx "1",
-     :y "2",
-     :x "8",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:ry "1", :rx "1", :y "2", :x "8", :height "4", :width "8"}]
    [:path
     {:d
      "M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"}]]))
@@ -8690,12 +8112,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "M12 3v18"}]]))
 (defn
  columns-3
@@ -8711,12 +8128,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "M9 3v18"}]
    [:path {:d "M15 3v18"}]]))
 (defn
@@ -8733,12 +8145,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "M7.5 3v18"}]
    [:path {:d "M12 3v18"}]
    [:path {:d "M16.5 3v18"}]]))
@@ -8760,18 +8167,8 @@
    [:path {:d "M14 2a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2"}]
    [:path {:d "M20 2a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2"}]
    [:path {:d "m7 21 3-3-3-3"}]
-   [:rect
-    {:rx "2",
-     :height (or height "24"),
-     :width (or width "24"),
-     :y "14",
-     :x "14"}]
-   [:rect
-    {:rx "2",
-     :height (or height "24"),
-     :width (or width "24"),
-     :y "2",
-     :x "2"}]]))
+   [:rect {:rx "2", :height "8", :width "8", :y "14", :x "14"}]
+   [:rect {:rx "2", :height "8", :width "8", :y "2", :x "2"}]]))
 (defn
  command
  ([] (command {}))
@@ -8847,18 +8244,8 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "2",
-     :x "5",
-     :height (or height "24"),
-     :width (or width "24")}]
-   [:rect
-    {:rx "2",
-     :y "14",
-     :x "2",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "2", :x "5", :height "8", :width "14"}]
+   [:rect {:rx "2", :y "14", :x "2", :height "8", :width "20"}]
    [:path {:d "M6 18h2"}]
    [:path {:d "M12 18h6"}]]))
 (defn
@@ -8911,12 +8298,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "1",
-     :height (or height "24"),
-     :width (or width "24"),
-     :y "6",
-     :x "2"}]
+   [:rect {:rx "1", :height "8", :width "20", :y "6", :x "2"}]
    [:path {:d "M17 14v7"}]
    [:path {:d "M7 14v7"}]
    [:path {:d "M17 3v3"}]
@@ -8942,12 +8324,7 @@
    [:path {:d "M17.915 22a6 6 0 0 0-12 0"}]
    [:path {:d "M8 2v2"}]
    [:circle {:r "4", :cy "12", :cx "12"}]
-   [:rect
-    {:rx "2",
-     :height (or height "24"),
-     :width (or width "24"),
-     :y "4",
-     :x "3"}]]))
+   [:rect {:rx "2", :height "18", :width "18", :y "4", :x "3"}]]))
 (defn
  contact
  ([] (contact {}))
@@ -8966,12 +8343,7 @@
    [:path {:d "M7 22v-2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v2"}]
    [:path {:d "M8 2v2"}]
    [:circle {:r "3", :cy "11", :cx "12"}]
-   [:rect
-    {:rx "2",
-     :height (or height "24"),
-     :width (or width "24"),
-     :y "4",
-     :x "3"}]]))
+   [:rect {:rx "2", :height "18", :width "18", :y "4", :x "3"}]]))
 (defn
  container
  ([] (container {}))
@@ -9065,12 +8437,7 @@
     :height (or height "24")}
    [:path {:d "m12 15 2 2 4-4"}]
    [:rect
-    {:ry "2",
-     :rx "2",
-     :y "8",
-     :x "8",
-     :height (or height "24"),
-     :width (or width "24")}]
+    {:ry "2", :rx "2", :y "8", :x "8", :height "14", :width "14"}]
    [:path
     {:d "M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"}]]))
 (defn
@@ -9089,12 +8456,7 @@
     :height (or height "24")}
    [:line {:y2 "15", :y1 "15", :x2 "18", :x1 "12"}]
    [:rect
-    {:ry "2",
-     :rx "2",
-     :y "8",
-     :x "8",
-     :height (or height "24"),
-     :width (or width "24")}]
+    {:ry "2", :rx "2", :y "8", :x "8", :height "14", :width "14"}]
    [:path
     {:d "M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"}]]))
 (defn
@@ -9114,12 +8476,7 @@
    [:line {:y2 "18", :y1 "12", :x2 "15", :x1 "15"}]
    [:line {:y2 "15", :y1 "15", :x2 "18", :x1 "12"}]
    [:rect
-    {:ry "2",
-     :rx "2",
-     :y "8",
-     :x "8",
-     :height (or height "24"),
-     :width (or width "24")}]
+    {:ry "2", :rx "2", :y "8", :x "8", :height "14", :width "14"}]
    [:path
     {:d "M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"}]]))
 (defn
@@ -9138,12 +8495,7 @@
     :height (or height "24")}
    [:line {:y2 "12", :y1 "18", :x2 "18", :x1 "12"}]
    [:rect
-    {:ry "2",
-     :rx "2",
-     :y "8",
-     :x "8",
-     :height (or height "24"),
-     :width (or width "24")}]
+    {:ry "2", :rx "2", :y "8", :x "8", :height "14", :width "14"}]
    [:path
     {:d "M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"}]]))
 (defn
@@ -9163,12 +8515,7 @@
    [:line {:y2 "18", :y1 "12", :x2 "18", :x1 "12"}]
    [:line {:y2 "12", :y1 "18", :x2 "18", :x1 "12"}]
    [:rect
-    {:ry "2",
-     :rx "2",
-     :y "8",
-     :x "8",
-     :height (or height "24"),
-     :width (or width "24")}]
+    {:ry "2", :rx "2", :y "8", :x "8", :height "14", :width "14"}]
    [:path
     {:d "M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"}]]))
 (defn
@@ -9186,12 +8533,7 @@
     :strokeLinecap "round",
     :height (or height "24")}
    [:rect
-    {:ry "2",
-     :rx "2",
-     :y "8",
-     :x "8",
-     :height (or height "24"),
-     :width (or width "24")}]
+    {:ry "2", :rx "2", :y "8", :x "8", :height "14", :width "14"}]
    [:path
     {:d "M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"}]]))
 (defn
@@ -9368,18 +8710,8 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "4",
-     :x "4",
-     :height (or height "24"),
-     :width (or width "24")}]
-   [:rect
-    {:rx "1",
-     :y "9",
-     :x "9",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "4", :x "4", :height "16", :width "16"}]
+   [:rect {:rx "1", :y "9", :x "9", :height "6", :width "6"}]
    [:path {:d "M15 2v2"}]
    [:path {:d "M15 20v2"}]
    [:path {:d "M2 15h2"}]
@@ -9423,12 +8755,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "5",
-     :x "2",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "5", :x "2", :height "14", :width "20"}]
    [:line {:y2 "10", :y1 "10", :x2 "22", :x1 "2"}]]))
 (defn
  croissant
@@ -9829,12 +9156,7 @@
     :strokeLinecap "round",
     :height (or height "24")}
    [:rect
-    {:ry "2",
-     :rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+    {:ry "2", :rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "M12 12h.01"}]]))
 (defn
  dice-2
@@ -9851,12 +9173,7 @@
     :strokeLinecap "round",
     :height (or height "24")}
    [:rect
-    {:ry "2",
-     :rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+    {:ry "2", :rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "M15 9h.01"}]
    [:path {:d "M9 15h.01"}]]))
 (defn
@@ -9874,12 +9191,7 @@
     :strokeLinecap "round",
     :height (or height "24")}
    [:rect
-    {:ry "2",
-     :rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+    {:ry "2", :rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "M16 8h.01"}]
    [:path {:d "M12 12h.01"}]
    [:path {:d "M8 16h.01"}]]))
@@ -9898,12 +9210,7 @@
     :strokeLinecap "round",
     :height (or height "24")}
    [:rect
-    {:ry "2",
-     :rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+    {:ry "2", :rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "M16 8h.01"}]
    [:path {:d "M8 8h.01"}]
    [:path {:d "M8 16h.01"}]
@@ -9923,12 +9230,7 @@
     :strokeLinecap "round",
     :height (or height "24")}
    [:rect
-    {:ry "2",
-     :rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+    {:ry "2", :rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "M16 8h.01"}]
    [:path {:d "M8 8h.01"}]
    [:path {:d "M8 16h.01"}]
@@ -9949,12 +9251,7 @@
     :strokeLinecap "round",
     :height (or height "24")}
    [:rect
-    {:ry "2",
-     :rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+    {:ry "2", :rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "M16 8h.01"}]
    [:path {:d "M16 12h.01"}]
    [:path {:d "M16 16h.01"}]
@@ -9976,12 +9273,7 @@
     :strokeLinecap "round",
     :height (or height "24")}
    [:rect
-    {:ry "2",
-     :rx "2",
-     :y "10",
-     :x "2",
-     :height (or height "24"),
-     :width (or width "24")}]
+    {:ry "2", :rx "2", :y "10", :x "2", :height "12", :width "12"}]
    [:path
     {:d
      "m17.92 14 3.5-3.5a2.24 2.24 0 0 0 0-3l-5-4.92a2.24 2.24 0 0 0-3 0L10 6"}]
@@ -10055,12 +9347,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:circle {:r "5", :cy "12", :cx "12"}]
    [:path {:d "M12 12h.01"}]]))
 (defn
@@ -10160,12 +9447,7 @@
     :strokeLinecap "round",
     :height (or height "24")}
    [:path {:d "M2 8h20"}]
-   [:rect
-    {:rx "2",
-     :y "4",
-     :x "2",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "4", :x "2", :height "16", :width "20"}]
    [:path {:d "M6 16h12"}]]))
 (defn
  dog
@@ -10560,12 +9842,7 @@
    [:path {:d "M21.54 15H17a2 2 0 0 0-2 2v4.54"}]
    [:path {:d "M12 2a10 10 0 1 0 9.54 13"}]
    [:path {:d "M20 6V4a2 2 0 1 0-4 0v2"}]
-   [:rect
-    {:rx "1",
-     :y "6",
-     :x "14",
-     :height (or height "24"),
-     :width (or width "24")}]]))
+   [:rect {:rx "1", :y "6", :x "14", :height "5", :width "8"}]]))
 (defn
  earth
  ([] (earth {}))
@@ -11426,12 +10703,7 @@
     :height (or height "24")}
    [:path {:d "M4 22h14a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v4"}]
    [:path {:d "M14 2v4a2 2 0 0 0 2 2h4"}]
-   [:rect
-    {:rx "2",
-     :y "12",
-     :x "2",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "12", :x "2", :height "6", :width "4"}]
    [:path {:d "M10 12h2v6"}]
    [:path {:d "M10 18h4"}]]))
 (defn
@@ -11608,12 +10880,7 @@
     :height (or height "24")}
    [:path {:d "M4 22h14a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v1"}]
    [:path {:d "M14 2v4a2 2 0 0 0 2 2h4"}]
-   [:rect
-    {:rx "1",
-     :y "13",
-     :x "2",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "1", :y "13", :x "2", :height "5", :width "8"}]
    [:path {:d "M8 13v-2a2 2 0 1 0-4 0v2"}]]))
 (defn
  file-lock
@@ -11631,12 +10898,7 @@
     :height (or height "24")}
    [:path
     {:d "M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"}]
-   [:rect
-    {:rx "1",
-     :y "12",
-     :x "8",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "1", :y "12", :x "8", :height "6", :width "8"}]
    [:path {:d "M10 12v-2a2 2 0 1 1 4 0v2"}]]))
 (defn
  file-minus-2
@@ -12078,12 +11340,7 @@
     :height (or height "24")}
    [:path {:d "M4 22h14a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v4"}]
    [:path {:d "M14 2v4a2 2 0 0 0 2 2h4"}]
-   [:rect
-    {:rx "1",
-     :y "12",
-     :x "2",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "1", :y "12", :x "2", :height "6", :width "8"}]
    [:path {:d "m10 15.5 4 2.5v-6l-4 2.5"}]]))
 (defn
  file-video
@@ -12249,12 +11506,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "M7 3v18"}]
    [:path {:d "M3 7.5h4"}]
    [:path {:d "M3 12h18"}]
@@ -13048,12 +12300,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "1",
-     :y "17",
-     :x "14",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "1", :y "17", :x "14", :height "5", :width "8"}]
    [:path
     {:d
      "M10 20H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h3.9a2 2 0 0 1 1.69.9l.81 1.2a2 2 0 0 0 1.67.9H20a2 2 0 0 1 2 2v2.5"}]
@@ -13505,12 +12752,7 @@
    [:path {:d "M17 3h2a2 2 0 0 1 2 2v2"}]
    [:path {:d "M21 17v2a2 2 0 0 1-2 2h-2"}]
    [:path {:d "M7 21H5a2 2 0 0 1-2-2v-2"}]
-   [:rect
-    {:rx "1",
-     :y "8",
-     :x "7",
-     :height (or height "24"),
-     :width (or width "24")}]]))
+   [:rect {:rx "1", :y "8", :x "7", :height "8", :width "10"}]]))
 (defn
  funnel-plus
  ([] (funnel-plus {}))
@@ -13582,12 +12824,7 @@
     :height (or height "24")}
    [:path {:d "M2 7v10"}]
    [:path {:d "M6 5v14"}]
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "10",
-     :height (or height "24"),
-     :width (or width "24")}]]))
+   [:rect {:rx "2", :y "3", :x "10", :height "18", :width "12"}]]))
 (defn
  gallery-horizontal
  ([] (gallery-horizontal {}))
@@ -13603,12 +12840,7 @@
     :strokeLinecap "round",
     :height (or height "24")}
    [:path {:d "M2 3v18"}]
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "6",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "6", :height "18", :width "12"}]
    [:path {:d "M22 3v18"}]]))
 (defn
  gallery-thumbnails
@@ -13624,12 +12856,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "14", :width "18"}]
    [:path {:d "M4 21h1"}]
    [:path {:d "M9 21h1"}]
    [:path {:d "M14 21h1"}]
@@ -13650,12 +12877,7 @@
     :height (or height "24")}
    [:path {:d "M7 2h10"}]
    [:path {:d "M5 6h14"}]
-   [:rect
-    {:rx "2",
-     :y "10",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]]))
+   [:rect {:rx "2", :y "10", :x "3", :height "12", :width "18"}]]))
 (defn
  gallery-vertical
  ([] (gallery-vertical {}))
@@ -13671,12 +12893,7 @@
     :strokeLinecap "round",
     :height (or height "24")}
    [:path {:d "M3 2h18"}]
-   [:rect
-    {:rx "2",
-     :y "6",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "6", :x "3", :height "12", :width "18"}]
    [:path {:d "M3 22h18"}]]))
 (defn
  gamepad-2
@@ -13717,12 +12934,7 @@
    [:line {:y2 "14", :y1 "10", :x2 "8", :x1 "8"}]
    [:line {:y2 "13", :y1 "13", :x2 "15.01", :x1 "15"}]
    [:line {:y2 "11", :y1 "11", :x2 "18.01", :x1 "18"}]
-   [:rect
-    {:rx "2",
-     :y "6",
-     :x "2",
-     :height (or height "24"),
-     :width (or width "24")}]]))
+   [:rect {:rx "2", :y "6", :x "2", :height "12", :width "20"}]]))
 (defn
  gauge
  ([] (gauge {}))
@@ -13808,12 +13020,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "1",
-     :height (or height "24"),
-     :width (or width "24"),
-     :y "8",
-     :x "3"}]
+   [:rect {:rx "1", :height "4", :width "18", :y "8", :x "3"}]
    [:path {:d "M12 8v13"}]
    [:path {:d "M19 12v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-7"}]
    [:path
@@ -14191,12 +13398,7 @@
      "M15.686 15A14.5 14.5 0 0 1 12 22a14.5 14.5 0 0 1 0-20 10 10 0 1 0 9.542 13"}]
    [:path {:d "M2 12h8.5"}]
    [:path {:d "M20 6V4a2 2 0 1 0-4 0v2"}]
-   [:rect
-    {:rx "1",
-     :y "6",
-     :x "14",
-     :height (or height "24"),
-     :width (or width "24")}]]))
+   [:rect {:rx "1", :y "6", :x "14", :height "5", :width "8"}]]))
 (defn
  globe
  ([] (globe {}))
@@ -14366,12 +13568,7 @@
     :height (or height "24")}
    [:path {:d "M12 3v18"}]
    [:path {:d "M3 12h18"}]
-   [:rect
-    {:rx "2",
-     :height (or height "24"),
-     :width (or width "24"),
-     :y "3",
-     :x "3"}]]))
+   [:rect {:rx "2", :height "18", :width "18", :y "3", :x "3"}]]))
 (defn
  grid-3x3
  ([] (grid-3x3 {}))
@@ -14386,12 +13583,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "M3 9h18"}]
    [:path {:d "M3 15h18"}]
    [:path {:d "M9 3v18"}]
@@ -14477,18 +13669,8 @@
    [:path {:d "M17 3h2c1.1 0 2 .9 2 2v2"}]
    [:path {:d "M21 17v2c0 1.1-.9 2-2 2h-2"}]
    [:path {:d "M7 21H5c-1.1 0-2-.9-2-2v-2"}]
-   [:rect
-    {:rx "1",
-     :y "7",
-     :x "7",
-     :height (or height "24"),
-     :width (or width "24")}]
-   [:rect
-    {:rx "1",
-     :y "12",
-     :x "10",
-     :height (or height "24"),
-     :width (or width "24")}]]))
+   [:rect {:rx "1", :y "7", :x "7", :height "5", :width "7"}]
+   [:rect {:rx "1", :y "12", :x "10", :height "5", :width "7"}]]))
 (defn
  guitar
  ([] (guitar {}))
@@ -14714,12 +13896,7 @@
     :height (or height "24")}
    [:path {:d "M12 2v8"}]
    [:path {:d "m16 6-4 4-4-4"}]
-   [:rect
-    {:rx "2",
-     :y "14",
-     :x "2",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "14", :x "2", :height "8", :width "20"}]
    [:path {:d "M6 18h.01"}]
    [:path {:d "M10 18h.01"}]]))
 (defn
@@ -14738,12 +13915,7 @@
     :height (or height "24")}
    [:path {:d "m16 6-4-4-4 4"}]
    [:path {:d "M12 2v8"}]
-   [:rect
-    {:rx "2",
-     :y "14",
-     :x "2",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "14", :x "2", :height "8", :width "20"}]
    [:path {:d "M6 18h.01"}]
    [:path {:d "M10 18h.01"}]]))
 (defn
@@ -14783,12 +13955,7 @@
    [:path {:d "M10 10V5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v5"}]
    [:path {:d "M14 6a6 6 0 0 1 6 6v3"}]
    [:path {:d "M4 15v-3a6 6 0 0 1 6-6"}]
-   [:rect
-    {:rx "1",
-     :height (or height "24"),
-     :width (or width "24"),
-     :y "15",
-     :x "2"}]]))
+   [:rect {:rx "1", :height "4", :width "20", :y "15", :x "2"}]]))
 (defn
  hash
  ([] (hash {}))
@@ -15325,12 +14492,7 @@
    [:path {:d "M16 7h.01"}]
    [:path {:d "M8 11h.01"}]
    [:path {:d "M8 7h.01"}]
-   [:rect
-    {:rx "2",
-     :height (or height "24"),
-     :width (or width "24"),
-     :y "2",
-     :x "4"}]]))
+   [:rect {:rx "2", :height "20", :width "16", :y "2", :x "4"}]]))
 (defn
  hourglass
  ([] (hourglass {}))
@@ -15487,12 +14649,7 @@
    [:path {:d "M16 14h2"}]
    [:path {:d "M6.17 15a3 3 0 0 1 5.66 0"}]
    [:circle {:r "2", :cy "11", :cx "9"}]
-   [:rect
-    {:rx "2",
-     :height (or height "24"),
-     :width (or width "24"),
-     :y "5",
-     :x "2"}]]))
+   [:rect {:rx "2", :height "14", :width "20", :y "5", :x "2"}]]))
 (defn
  image-down
  ([] (image-down {}))
@@ -15637,12 +14794,7 @@
    [:path {:d "M3 7V5a2 2 0 0 1 2-2"}]
    [:path {:d "m5 21 4.144-4.144a1.21 1.21 0 0 1 1.712 0L13 19"}]
    [:path {:d "M9 3h3"}]
-   [:rect
-    {:rx "1",
-     :height (or height "24"),
-     :width (or width "24"),
-     :y "11",
-     :x "3"}]]))
+   [:rect {:rx "1", :height "10", :width "10", :y "11", :x "3"}]]))
 (defn
  image
  ([] (image {}))
@@ -15658,12 +14810,7 @@
     :strokeLinecap "round",
     :height (or height "24")}
    [:rect
-    {:ry "2",
-     :rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+    {:ry "2", :rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:circle {:r "2", :cy "9", :cx "9"}]
    [:path {:d "m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"}]]))
 (defn
@@ -15683,12 +14830,7 @@
    [:path {:d "M18 22H4a2 2 0 0 1-2-2V6"}]
    [:path {:d "m22 13-1.296-1.296a2.41 2.41 0 0 0-3.408 0L11 18"}]
    [:circle {:r "2", :cy "8", :cx "12"}]
-   [:rect
-    {:rx "2",
-     :y "2",
-     :x "6",
-     :height (or height "24"),
-     :width (or width "24")}]]))
+   [:rect {:rx "2", :y "2", :x "6", :height "16", :width "16"}]]))
 (defn
  import
  ([] (import {}))
@@ -15829,12 +14971,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "M7 7h.01"}]
    [:path {:d "M17 7h.01"}]
    [:path {:d "M7 17h.01"}]
@@ -15854,12 +14991,7 @@
     :strokeLinecap "round",
     :height (or height "24")}
    [:rect
-    {:ry "5",
-     :rx "5",
-     :y "2",
-     :x "2",
-     :height (or height "24"),
-     :width (or width "24")}]
+    {:ry "5", :rx "5", :y "2", :x "2", :height "20", :width "20"}]
    [:path {:d "M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"}]
    [:line {:y2 "6.5", :y1 "6.5", :x2 "17.51", :x1 "17.5"}]]))
 (defn
@@ -16037,12 +15169,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "4",
-     :x "2",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "4", :x "2", :height "16", :width "20"}]
    [:path {:d "M6 8h4"}]
    [:path {:d "M14 8h.01"}]
    [:path {:d "M18 8h.01"}]
@@ -16097,12 +15224,7 @@
    [:path {:d "M6 8h.01"}]
    [:path {:d "M7 16h10"}]
    [:path {:d "M8 12h.01"}]
-   [:rect
-    {:rx "2",
-     :y "4",
-     :x "2",
-     :height (or height "24"),
-     :width (or width "24")}]]))
+   [:rect {:rx "2", :y "4", :x "2", :height "16", :width "20"}]]))
 (defn
  lamp-ceiling
  ([] (lamp-ceiling {}))
@@ -16282,12 +15404,7 @@
     :height (or height "24")}
    [:path {:d "M2 20h20"}]
    [:path {:d "m9 10 2 2 4-4"}]
-   [:rect
-    {:rx "2",
-     :height (or height "24"),
-     :width (or width "24"),
-     :y "4",
-     :x "3"}]]))
+   [:rect {:rx "2", :height "12", :width "18", :y "4", :x "3"}]]))
 (defn
  laptop-minimal
  ([] (laptop-minimal {}))
@@ -16303,12 +15420,7 @@
     :strokeLinecap "round",
     :height (or height "24")}
    [:rect
-    {:ry "2",
-     :rx "2",
-     :y "4",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+    {:ry "2", :rx "2", :y "4", :x "3", :height "12", :width "18"}]
    [:line {:y2 "20", :y1 "20", :x2 "22", :x1 "2"}]]))
 (defn
  laptop
@@ -16444,30 +15556,10 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "1",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
-   [:rect
-    {:rx "1",
-     :y "3",
-     :x "14",
-     :height (or height "24"),
-     :width (or width "24")}]
-   [:rect
-    {:rx "1",
-     :y "12",
-     :x "14",
-     :height (or height "24"),
-     :width (or width "24")}]
-   [:rect
-    {:rx "1",
-     :y "16",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]]))
+   [:rect {:rx "1", :y "3", :x "3", :height "9", :width "7"}]
+   [:rect {:rx "1", :y "3", :x "14", :height "5", :width "7"}]
+   [:rect {:rx "1", :y "12", :x "14", :height "9", :width "7"}]
+   [:rect {:rx "1", :y "16", :x "3", :height "5", :width "7"}]]))
 (defn
  layout-grid
  ([] (layout-grid {}))
@@ -16482,30 +15574,10 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "1",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
-   [:rect
-    {:rx "1",
-     :y "3",
-     :x "14",
-     :height (or height "24"),
-     :width (or width "24")}]
-   [:rect
-    {:rx "1",
-     :y "14",
-     :x "14",
-     :height (or height "24"),
-     :width (or width "24")}]
-   [:rect
-    {:rx "1",
-     :y "14",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]]))
+   [:rect {:rx "1", :y "3", :x "3", :height "7", :width "7"}]
+   [:rect {:rx "1", :y "3", :x "14", :height "7", :width "7"}]
+   [:rect {:rx "1", :y "14", :x "14", :height "7", :width "7"}]
+   [:rect {:rx "1", :y "14", :x "3", :height "7", :width "7"}]]))
 (defn
  layout-list
  ([] (layout-list {}))
@@ -16520,18 +15592,8 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "1",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
-   [:rect
-    {:rx "1",
-     :y "14",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "1", :y "3", :x "3", :height "7", :width "7"}]
+   [:rect {:rx "1", :y "14", :x "3", :height "7", :width "7"}]
    [:path {:d "M14 4h7"}]
    [:path {:d "M14 9h7"}]
    [:path {:d "M14 15h7"}]
@@ -16550,24 +15612,9 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "1",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
-   [:rect
-    {:rx "1",
-     :y "3",
-     :x "14",
-     :height (or height "24"),
-     :width (or width "24")}]
-   [:rect
-    {:rx "1",
-     :y "14",
-     :x "14",
-     :height (or height "24"),
-     :width (or width "24")}]]))
+   [:rect {:rx "1", :y "3", :x "3", :height "18", :width "7"}]
+   [:rect {:rx "1", :y "3", :x "14", :height "7", :width "7"}]
+   [:rect {:rx "1", :y "14", :x "14", :height "7", :width "7"}]]))
 (defn
  layout-panel-top
  ([] (layout-panel-top {}))
@@ -16582,24 +15629,9 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "1",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
-   [:rect
-    {:rx "1",
-     :y "14",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
-   [:rect
-    {:rx "1",
-     :y "14",
-     :x "14",
-     :height (or height "24"),
-     :width (or width "24")}]]))
+   [:rect {:rx "1", :y "3", :x "3", :height "7", :width "18"}]
+   [:rect {:rx "1", :y "14", :x "3", :height "7", :width "7"}]
+   [:rect {:rx "1", :y "14", :x "14", :height "7", :width "7"}]]))
 (defn
  layout-template
  ([] (layout-template {}))
@@ -16614,24 +15646,9 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "1",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
-   [:rect
-    {:rx "1",
-     :y "14",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
-   [:rect
-    {:rx "1",
-     :y "14",
-     :x "16",
-     :height (or height "24"),
-     :width (or width "24")}]]))
+   [:rect {:rx "1", :y "3", :x "3", :height "7", :width "18"}]
+   [:rect {:rx "1", :y "14", :x "3", :height "7", :width "9"}]
+   [:rect {:rx "1", :y "14", :x "16", :height "7", :width "5"}]]))
 (defn
  leaf
  ([] (leaf {}))
@@ -16686,12 +15703,7 @@
     {:d
      "M16 12h3a2 2 0 0 0 1.902-1.38l1.056-3.333A1 1 0 0 0 21 6H3a1 1 0 0 0-.958 1.287l1.056 3.334A2 2 0 0 0 5 12h3"}]
    [:path {:d "M18 6V3a1 1 0 0 0-1-1h-3"}]
-   [:rect
-    {:rx "1",
-     :y "10",
-     :x "8",
-     :height (or height "24"),
-     :width (or width "24")}]]))
+   [:rect {:rx "1", :y "10", :x "8", :height "12", :width "8"}]]))
 (defn
  letter-text
  ([] (letter-text {}))
@@ -16725,12 +15737,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "1",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "1", :y "3", :x "3", :height "18", :width "8"}]
    [:path {:d "M7 3v18"}]
    [:path
     {:d
@@ -16901,8 +15908,7 @@
    [:path
     {:d
      "M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"}]
-   [:rect
-    {:y "9", :x "2", :height (or height "24"), :width (or width "24")}]
+   [:rect {:y "9", :x "2", :height "12", :width "4"}]
    [:circle {:r "2", :cy "4", :cx "4"}]]))
 (defn
  list-check
@@ -17145,12 +16151,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "1",
-     :height (or height "24"),
-     :width (or width "24"),
-     :y "5",
-     :x "3"}]
+   [:rect {:rx "1", :height "6", :width "6", :y "5", :x "3"}]
    [:path {:d "m3 17 2 2 4-4"}]
    [:path {:d "M13 6h8"}]
    [:path {:d "M13 12h8"}]
@@ -17365,12 +16366,7 @@
     :strokeLinecap "round",
     :height (or height "24")}
    [:circle {:r "1", :cy "16", :cx "12"}]
-   [:rect
-    {:rx "2",
-     :y "10",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "10", :x "3", :height "12", :width "18"}]
    [:path {:d "M7 10V7a5 5 0 0 1 9.33-2.5"}]]))
 (defn
  lock-keyhole
@@ -17387,12 +16383,7 @@
     :strokeLinecap "round",
     :height (or height "24")}
    [:circle {:r "1", :cy "16", :cx "12"}]
-   [:rect
-    {:rx "2",
-     :height (or height "24"),
-     :width (or width "24"),
-     :y "10",
-     :x "3"}]
+   [:rect {:rx "2", :height "12", :width "18", :y "10", :x "3"}]
    [:path {:d "M7 10V7a5 5 0 0 1 10 0v3"}]]))
 (defn
  lock-open
@@ -17409,12 +16400,7 @@
     :strokeLinecap "round",
     :height (or height "24")}
    [:rect
-    {:ry "2",
-     :rx "2",
-     :y "11",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+    {:ry "2", :rx "2", :y "11", :x "3", :height "11", :width "18"}]
    [:path {:d "M7 11V7a5 5 0 0 1 9.9-1"}]]))
 (defn
  lock
@@ -17431,12 +16417,7 @@
     :strokeLinecap "round",
     :height (or height "24")}
    [:rect
-    {:ry "2",
-     :rx "2",
-     :y "11",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+    {:ry "2", :rx "2", :y "11", :x "3", :height "11", :width "18"}]
    [:path {:d "M7 11V7a5 5 0 0 1 10 0v4"}]]))
 (defn
  log-in
@@ -17721,12 +16702,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "4",
-     :x "2",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "4", :x "2", :height "16", :width "20"}]
    [:path {:d "m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"}]]))
 (defn
  mailbox
@@ -17762,12 +16738,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "4",
-     :x "6",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "4", :x "6", :height "13", :width "16"}]
    [:path {:d "m22 7-7.1 3.78c-.57.3-1.23.3-1.8 0L6 7"}]
    [:path {:d "M2 8v11c0 1.1.9 2 2 2h14"}]]))
 (defn
@@ -18573,12 +17544,7 @@
     :height (or height "24")}
    [:path {:d "M19 15v-2a2 2 0 1 0-4 0v2"}]
    [:path {:d "M9 17H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v3.5"}]
-   [:rect
-    {:rx "1",
-     :height (or height "24"),
-     :width (or width "24"),
-     :y "15",
-     :x "13"}]]))
+   [:rect {:rx "1", :height "5", :width "8", :y "15", :x "13"}]]))
 (defn
  message-square-more
  ([] (message-square-more {}))
@@ -18900,18 +17866,8 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "4",
-     :x "2",
-     :height (or height "24"),
-     :width (or width "24")}]
-   [:rect
-    {:rx "1",
-     :y "8",
-     :x "6",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "4", :x "2", :height "15", :width "20"}]
+   [:rect {:rx "1", :y "8", :x "6", :height "7", :width "8"}]
    [:path {:d "M18 8v7"}]
    [:path {:d "M6 19v2"}]
    [:path {:d "M18 19v2"}]]))
@@ -19039,12 +17995,7 @@
     :strokeLinecap "round",
     :height (or height "24")}
    [:path {:d "m9 10 2 2 4-4"}]
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "2",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "2", :height "14", :width "20"}]
    [:path {:d "M12 17v4"}]
    [:path {:d "M8 21h8"}]]))
 (defn
@@ -19109,12 +18060,7 @@
     :height (or height "24")}
    [:path {:d "M12 13V7"}]
    [:path {:d "m15 10-3 3-3-3"}]
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "2",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "2", :height "14", :width "20"}]
    [:path {:d "M12 17v4"}]
    [:path {:d "M8 21h8"}]]))
 (defn
@@ -19152,12 +18098,7 @@
     :height (or height "24")}
    [:path {:d "M10 13V7"}]
    [:path {:d "M14 13V7"}]
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "2",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "2", :height "14", :width "20"}]
    [:path {:d "M12 17v4"}]
    [:path {:d "M8 21h8"}]]))
 (defn
@@ -19179,12 +18120,7 @@
      "M10 7.75a.75.75 0 0 1 1.142-.638l3.664 2.249a.75.75 0 0 1 0 1.278l-3.664 2.25a.75.75 0 0 1-1.142-.64z"}]
    [:path {:d "M12 17v4"}]
    [:path {:d "M8 21h8"}]
-   [:rect
-    {:rx "2",
-     :height (or height "24"),
-     :width (or width "24"),
-     :y "3",
-     :x "2"}]]))
+   [:rect {:rx "2", :height "14", :width "20", :y "3", :x "2"}]]))
 (defn
  monitor-smartphone
  ([] (monitor-smartphone {}))
@@ -19203,12 +18139,7 @@
     {:d "M18 8V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h8"}]
    [:path {:d "M10 19v-3.96 3.15"}]
    [:path {:d "M7 19h5"}]
-   [:rect
-    {:rx "2",
-     :y "12",
-     :x "16",
-     :height (or height "24"),
-     :width (or width "24")}]]))
+   [:rect {:rx "2", :y "12", :x "16", :height "10", :width "6"}]]))
 (defn
  monitor-speaker
  ([] (monitor-speaker {}))
@@ -19225,12 +18156,7 @@
     :height (or height "24")}
    [:path {:d "M5.5 20H8"}]
    [:path {:d "M17 9h.01"}]
-   [:rect
-    {:rx "2",
-     :y "4",
-     :x "12",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "4", :x "12", :height "16", :width "10"}]
    [:path {:d "M8 6H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h4"}]
    [:circle {:r "1", :cy "15", :cx "17"}]]))
 (defn
@@ -19249,18 +18175,8 @@
     :height (or height "24")}
    [:path {:d "M12 17v4"}]
    [:path {:d "M8 21h8"}]
-   [:rect
-    {:rx "2",
-     :height (or height "24"),
-     :width (or width "24"),
-     :y "3",
-     :x "2"}]
-   [:rect
-    {:rx "1",
-     :height (or height "24"),
-     :width (or width "24"),
-     :y "7",
-     :x "9"}]]))
+   [:rect {:rx "2", :height "14", :width "20", :y "3", :x "2"}]
+   [:rect {:rx "1", :height "6", :width "6", :y "7", :x "9"}]]))
 (defn
  monitor-up
  ([] (monitor-up {}))
@@ -19277,12 +18193,7 @@
     :height (or height "24")}
    [:path {:d "m9 10 3-3 3 3"}]
    [:path {:d "M12 13V7"}]
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "2",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "2", :height "14", :width "20"}]
    [:path {:d "M12 17v4"}]
    [:path {:d "M8 21h8"}]]))
 (defn
@@ -19301,12 +18212,7 @@
     :height (or height "24")}
    [:path {:d "m14.5 12.5-5-5"}]
    [:path {:d "m9.5 12.5 5-5"}]
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "2",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "2", :height "14", :width "20"}]
    [:path {:d "M12 17v4"}]
    [:path {:d "M8 21h8"}]]))
 (defn
@@ -19323,12 +18229,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "2",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "2", :height "14", :width "20"}]
    [:line {:y2 "21", :y1 "21", :x2 "16", :x1 "8"}]
    [:line {:y2 "21", :y1 "17", :x2 "12", :x1 "12"}]]))
 (defn
@@ -19503,12 +18404,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "7",
-     :height (or height "24"),
-     :width (or width "24"),
-     :y "2",
-     :x "5"}]
+   [:rect {:rx "7", :height "20", :width "14", :y "2", :x "5"}]
    [:path {:d "M12 6v4"}]]))
 (defn
  move-3d
@@ -19889,24 +18785,9 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "1",
-     :height (or height "24"),
-     :width (or width "24"),
-     :y "16",
-     :x "16"}]
-   [:rect
-    {:rx "1",
-     :height (or height "24"),
-     :width (or width "24"),
-     :y "16",
-     :x "2"}]
-   [:rect
-    {:rx "1",
-     :height (or height "24"),
-     :width (or width "24"),
-     :y "2",
-     :x "9"}]
+   [:rect {:rx "1", :height "6", :width "6", :y "16", :x "16"}]
+   [:rect {:rx "1", :height "6", :width "6", :y "16", :x "2"}]
+   [:rect {:rx "1", :height "6", :width "6", :y "2", :x "9"}]
    [:path {:d "M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"}]
    [:path {:d "M12 12V8"}]]))
 (defn
@@ -19928,12 +18809,7 @@
    [:path
     {:d
      "M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-4 0v-9a2 2 0 0 1 2-2h2"}]
-   [:rect
-    {:rx "1",
-     :y "6",
-     :x "10",
-     :height (or height "24"),
-     :width (or width "24")}]]))
+   [:rect {:rx "1", :y "6", :x "10", :height "4", :width "8"}]]))
 (defn
  nfc
  ([] (nfc {}))
@@ -20012,12 +18888,7 @@
    [:path {:d "M2 10h4"}]
    [:path {:d "M2 14h4"}]
    [:path {:d "M2 18h4"}]
-   [:rect
-    {:rx "2",
-     :y "2",
-     :x "4",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "2", :x "4", :height "20", :width "16"}]
    [:path {:d "M15 2v20"}]
    [:path {:d "M15 7h5"}]
    [:path {:d "M15 12h5"}]
@@ -20040,12 +18911,7 @@
    [:path {:d "M2 10h4"}]
    [:path {:d "M2 14h4"}]
    [:path {:d "M2 18h4"}]
-   [:rect
-    {:rx "2",
-     :y "2",
-     :x "4",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "2", :x "4", :height "20", :width "16"}]
    [:path {:d "M9.5 8h5"}]
    [:path {:d "M9.5 12H16"}]
    [:path {:d "M9.5 16H14"}]]))
@@ -20067,12 +18933,7 @@
    [:path {:d "M2 10h4"}]
    [:path {:d "M2 14h4"}]
    [:path {:d "M2 18h4"}]
-   [:rect
-    {:rx "2",
-     :y "2",
-     :x "4",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "2", :x "4", :height "20", :width "16"}]
    [:path {:d "M16 2v20"}]]))
 (defn
  notepad-text-dashed
@@ -20118,12 +18979,7 @@
    [:path {:d "M8 2v4"}]
    [:path {:d "M12 2v4"}]
    [:path {:d "M16 2v4"}]
-   [:rect
-    {:rx "2",
-     :y "4",
-     :x "4",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "4", :x "4", :height "18", :width "16"}]
    [:path {:d "M8 10h6"}]
    [:path {:d "M8 14h8"}]
    [:path {:d "M8 18h5"}]]))
@@ -20542,20 +19398,10 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "2",
-     :x "2",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "2", :x "2", :height "6", :width "16"}]
    [:path
     {:d "M10 16v-2a2 2 0 0 1 2-2h8a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"}]
-   [:rect
-    {:rx "1",
-     :y "16",
-     :x "8",
-     :height (or height "24"),
-     :width (or width "24")}]]))
+   [:rect {:rx "1", :y "16", :x "8", :height "6", :width "4"}]]))
 (defn
  paintbrush-vertical
  ([] (paintbrush-vertical {}))
@@ -20632,12 +19478,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "M3 15h18"}]
    [:path {:d "m15 8-3 3-3-3"}]]))
 (defn
@@ -20654,12 +19495,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "M14 15h1"}]
    [:path {:d "M19 15h2"}]
    [:path {:d "M3 15h2"}]
@@ -20678,12 +19514,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "M3 15h18"}]
    [:path {:d "m9 10 3-3 3 3"}]]))
 (defn
@@ -20700,12 +19531,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "M3 15h18"}]]))
 (defn
  panel-left-close
@@ -20721,12 +19547,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "M9 3v18"}]
    [:path {:d "m16 15-3-3 3-3"}]]))
 (defn
@@ -20743,12 +19564,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "M9 14v1"}]
    [:path {:d "M9 19v2"}]
    [:path {:d "M9 3v2"}]
@@ -20767,12 +19583,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "M9 3v18"}]
    [:path {:d "m14 9 3 3-3 3"}]]))
 (defn
@@ -20789,12 +19600,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "M9 3v18"}]]))
 (defn
  panel-right-close
@@ -20810,12 +19616,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "M15 3v18"}]
    [:path {:d "m8 9 3 3-3 3"}]]))
 (defn
@@ -20832,12 +19633,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "M15 14v1"}]
    [:path {:d "M15 19v2"}]
    [:path {:d "M15 3v2"}]
@@ -20856,12 +19652,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "M15 3v18"}]
    [:path {:d "m10 15-3-3 3-3"}]]))
 (defn
@@ -20878,12 +19669,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "M15 3v18"}]]))
 (defn
  panel-top-close
@@ -20899,12 +19685,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "M3 9h18"}]
    [:path {:d "m9 16 3-3 3 3"}]]))
 (defn
@@ -20921,12 +19702,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "M14 9h1"}]
    [:path {:d "M19 9h2"}]
    [:path {:d "M3 9h2"}]
@@ -20945,12 +19721,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "M3 9h18"}]
    [:path {:d "m15 14-3 3-3-3"}]]))
 (defn
@@ -20967,12 +19738,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "M3 9h18"}]]))
 (defn
  panels-left-bottom
@@ -20988,12 +19754,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "M9 3v18"}]
    [:path {:d "M9 15h12"}]]))
 (defn
@@ -21010,12 +19771,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "M3 15h12"}]
    [:path {:d "M15 3v18"}]]))
 (defn
@@ -21032,12 +19788,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "M3 9h18"}]
    [:path {:d "M9 21V9"}]]))
 (defn
@@ -21140,18 +19891,8 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "1",
-     :height (or height "24"),
-     :width (or width "24"),
-     :y "4",
-     :x "14"}]
-   [:rect
-    {:rx "1",
-     :height (or height "24"),
-     :width (or width "24"),
-     :y "4",
-     :x "6"}]]))
+   [:rect {:rx "1", :height "16", :width "4", :y "4", :x "14"}]
+   [:rect {:rx "1", :height "16", :width "4", :y "4", :x "6"}]]))
 (defn
  paw-print
  ([] (paw-print {}))
@@ -21186,12 +19927,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "2",
-     :x "5",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "2", :x "5", :height "20", :width "14"}]
    [:path {:d "M15 14h.01"}]
    [:path {:d "M9 6h6"}]
    [:path {:d "M9 10h6"}]]))
@@ -21636,12 +20372,7 @@
     :height (or height "24")}
    [:path
     {:d "M21 9V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v10c0 1.1.9 2 2 2h4"}]
-   [:rect
-    {:rx "2",
-     :y "13",
-     :x "12",
-     :height (or height "24"),
-     :width (or width "24")}]]))
+   [:rect {:rx "2", :y "13", :x "12", :height "7", :width "10"}]]))
 (defn
  picture-in-picture
  ([] (picture-in-picture {}))
@@ -21660,12 +20391,7 @@
    [:path {:d "m2 4 6 6"}]
    [:path {:d "M21 10V7a2 2 0 0 0-2-2h-7"}]
    [:path {:d "M3 14v2a2 2 0 0 0 2 2h3"}]
-   [:rect
-    {:rx "1",
-     :height (or height "24"),
-     :width (or width "24"),
-     :y "14",
-     :x "12"}]]))
+   [:rect {:rx "1", :height "7", :width "10", :y "14", :x "12"}]]))
 (defn
  piggy-bank
  ([] (piggy-bank {}))
@@ -21756,12 +20482,7 @@
     :height (or height "24")}
    [:path {:d "M18 11h-4a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1h4"}]
    [:path {:d "M6 7v13a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V7"}]
-   [:rect
-    {:rx "1",
-     :y "2",
-     :x "4",
-     :height (or height "24"),
-     :width (or width "24")}]]))
+   [:rect {:rx "1", :y "2", :x "4", :height "5", :width "16"}]]))
 (defn
  pill
  ([] (pill {}))
@@ -22249,12 +20970,7 @@
     {:d
      "M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"}]
    [:path {:d "M6 9V3a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v6"}]
-   [:rect
-    {:rx "1",
-     :height (or height "24"),
-     :width (or width "24"),
-     :y "14",
-     :x "6"}]]))
+   [:rect {:rx "1", :height "8", :width "12", :y "14", :x "6"}]]))
 (defn
  projector
  ([] (projector {}))
@@ -22291,12 +21007,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "4",
-     :x "2",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "4", :x "2", :height "16", :width "20"}]
    [:path {:d "M12 9v11"}]
    [:path {:d "M2 9h13a2 2 0 0 1 2 2v9"}]]))
 (defn
@@ -22348,24 +21059,9 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "1",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
-   [:rect
-    {:rx "1",
-     :y "3",
-     :x "16",
-     :height (or height "24"),
-     :width (or width "24")}]
-   [:rect
-    {:rx "1",
-     :y "16",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "1", :y "3", :x "3", :height "5", :width "5"}]
+   [:rect {:rx "1", :y "3", :x "16", :height "5", :width "5"}]
+   [:rect {:rx "1", :y "16", :x "3", :height "5", :width "5"}]
    [:path {:d "M21 16h-3a2 2 0 0 0-2 2v3"}]
    [:path {:d "M21 21v.01"}]
    [:path {:d "M12 7v3a2 2 0 0 1-2 2H7"}]
@@ -22495,12 +21191,7 @@
     :height (or height "24")}
    [:path {:d "M5 16v2"}]
    [:path {:d "M19 16v2"}]
-   [:rect
-    {:rx "2",
-     :y "8",
-     :x "2",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "8", :x "2", :height "8", :width "20"}]
    [:path {:d "M18 12h.01"}]]))
 (defn
  radio-tower
@@ -22631,18 +21322,8 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "2",
-     :x "6",
-     :height (or height "24"),
-     :width (or width "24")}]
-   [:rect
-    {:rx "2",
-     :y "6",
-     :x "2",
-     :height (or height "24"),
-     :width (or width "24")}]]))
+   [:rect {:rx "2", :y "2", :x "6", :height "20", :width "12"}]
+   [:rect {:rx "2", :y "6", :x "2", :height "12", :width "20"}]]))
 (defn
  receipt-cent
  ([] (receipt-cent {}))
@@ -22834,12 +21515,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "6",
-     :x "2",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "6", :x "2", :height "12", :width "20"}]
    [:path {:d "M12 12h.01"}]
    [:path {:d "M17 12h.01"}]
    [:path {:d "M7 12h.01"}]]))
@@ -22857,12 +21533,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "6",
-     :x "2",
-     :height (or height "24"),
-     :width (or width "24")}]]))
+   [:rect {:rx "2", :y "6", :x "2", :height "12", :width "20"}]]))
 (defn
  rectangle-vertical
  ([] (rectangle-vertical {}))
@@ -22877,12 +21548,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "2",
-     :x "6",
-     :height (or height "24"),
-     :width (or width "24")}]]))
+   [:rect {:rx "2", :y "2", :x "6", :height "20", :width "12"}]]))
 (defn
  recycle
  ([] (recycle {}))
@@ -23174,12 +21840,7 @@
    [:path {:d "M22 8a2 2 0 0 1-2 2"}]
    [:path {:d "m3 7 3 3 3-3"}]
    [:path {:d "M6 10V5a 3 3 0 0 1 3-3h1"}]
-   [:rect
-    {:rx "2",
-     :height (or height "24"),
-     :width (or width "24"),
-     :y "14",
-     :x "2"}]]))
+   [:rect {:rx "2", :height "8", :width "8", :y "14", :x "2"}]]))
 (defn
  replace
  ([] (replace {}))
@@ -23200,12 +21861,7 @@
    [:path {:d "M22 8a2 2 0 0 1-2 2"}]
    [:path {:d "m3 7 3 3 3-3"}]
    [:path {:d "M6 10V5a3 3 0 0 1 3-3h1"}]
-   [:rect
-    {:rx "2",
-     :height (or height "24"),
-     :width (or width "24"),
-     :y "14",
-     :x "2"}]]))
+   [:rect {:rx "2", :height "8", :width "8", :y "14", :x "2"}]]))
 (defn
  reply-all
  ([] (reply-all {}))
@@ -23482,12 +22138,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "14",
-     :x "2",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "14", :x "2", :height "8", :width "20"}]
    [:path {:d "M6.01 18H6"}]
    [:path {:d "M10.01 18H10"}]
    [:path {:d "M15 10v4"}]
@@ -23507,12 +22158,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "M3 12h18"}]]))
 (defn
  rows-3
@@ -23528,12 +22174,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "M21 9H3"}]
    [:path {:d "M21 15H3"}]]))
 (defn
@@ -23550,12 +22191,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "M21 7.5H3"}]
    [:path {:d "M21 12H3"}]
    [:path {:d "M21 16.5H3"}]]))
@@ -23670,12 +22306,7 @@
    [:path {:d "M21 15a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-5.25"}]
    [:path {:d "M3 15a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h9"}]
    [:path {:d "m6.67 15 6.13 4.6a2 2 0 0 0 2.8-.4l3.15-4.2"}]
-   [:rect
-    {:rx "1",
-     :y "11",
-     :x "2",
-     :height (or height "24"),
-     :width (or width "24")}]]))
+   [:rect {:rx "1", :y "11", :x "2", :height "4", :width "20"}]]))
 (defn
  satellite-dish
  ([] (satellite-dish {}))
@@ -23975,12 +22606,7 @@
    [:path {:d "M3 7V5a2 2 0 0 1 2-2h2"}]
    [:path {:d "M7 17h.01"}]
    [:path {:d "M7 21H5a2 2 0 0 1-2-2v-2"}]
-   [:rect
-    {:rx "1",
-     :height (or height "24"),
-     :width (or width "24"),
-     :y "7",
-     :x "7"}]]))
+   [:rect {:rx "1", :height "5", :width "5", :y "7", :x "7"}]]))
 (defn
  scan-search
  ([] (scan-search {}))
@@ -24314,18 +22940,8 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :height (or height "24"),
-     :width (or width "24"),
-     :y "14",
-     :x "14"}]
-   [:rect
-    {:rx "2",
-     :height (or height "24"),
-     :width (or width "24"),
-     :y "2",
-     :x "2"}]
+   [:rect {:rx "2", :height "8", :width "8", :y "14", :x "14"}]
+   [:rect {:rx "2", :height "8", :width "8", :y "2", :x "2"}]
    [:path {:d "M7 14v1a2 2 0 0 0 2 2h1"}]
    [:path {:d "M14 7h1a2 2 0 0 1 2 2v1"}]]))
 (defn
@@ -24469,20 +23085,9 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
+   [:rect {:ry "2", :rx "2", :y "2", :x "2", :height "8", :width "20"}]
    [:rect
-    {:ry "2",
-     :rx "2",
-     :y "2",
-     :x "2",
-     :height (or height "24"),
-     :width (or width "24")}]
-   [:rect
-    {:ry "2",
-     :rx "2",
-     :y "14",
-     :x "2",
-     :height (or height "24"),
-     :width (or width "24")}]
+    {:ry "2", :rx "2", :y "14", :x "2", :height "8", :width "20"}]
    [:line {:y2 "6", :y1 "6", :x2 "6.01", :x1 "6"}]
    [:line {:y2 "18", :y1 "18", :x2 "6.01", :x1 "6"}]]))
 (defn
@@ -24538,12 +23143,7 @@
    [:path
     {:d
      "M8.3 10a.7.7 0 0 1-.626-1.079L11.4 3a.7.7 0 0 1 1.198-.043L16.3 8.9a.7.7 0 0 1-.572 1.1Z"}]
-   [:rect
-    {:rx "1",
-     :height (or height "24"),
-     :width (or width "24"),
-     :y "14",
-     :x "3"}]
+   [:rect {:rx "1", :height "7", :width "7", :y "14", :x "3"}]
    [:circle {:r "3.5", :cy "17.5", :cx "17.5"}]]))
 (defn
  share-2
@@ -24596,12 +23196,7 @@
     :strokeLinecap "round",
     :height (or height "24")}
    [:rect
-    {:ry "2",
-     :rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+    {:ry "2", :rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:line {:y2 "9", :y1 "9", :x2 "21", :x1 "3"}]
    [:line {:y2 "15", :y1 "15", :x2 "21", :x1 "3"}]
    [:line {:y2 "21", :y1 "9", :x2 "9", :x1 "9"}]
@@ -25339,33 +23934,13 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "1.5",
-     :y "2",
-     :x "13",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "1.5", :y "2", :x "13", :height "8", :width "3"}]
    [:path {:d "M19 8.5V10h1.5A1.5 1.5 0 1 0 19 8.5"}]
-   [:rect
-    {:rx "1.5",
-     :y "14",
-     :x "8",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "1.5", :y "14", :x "8", :height "8", :width "3"}]
    [:path {:d "M5 15.5V14H3.5A1.5 1.5 0 1 0 5 15.5"}]
-   [:rect
-    {:rx "1.5",
-     :y "13",
-     :x "14",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "1.5", :y "13", :x "14", :height "3", :width "8"}]
    [:path {:d "M15.5 19H14v1.5a1.5 1.5 0 1 0 1.5-1.5"}]
-   [:rect
-    {:rx "1.5",
-     :y "8",
-     :x "2",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "1.5", :y "8", :x "2", :height "3", :width "8"}]
    [:path {:d "M8.5 5H10V3.5A1.5 1.5 0 1 0 8.5 5"}]]))
 (defn
  slash
@@ -25460,12 +24035,7 @@
     :strokeLinecap "round",
     :height (or height "24")}
    [:rect
-    {:ry "2",
-     :rx "2",
-     :y "2",
-     :x "5",
-     :height (or height "24"),
-     :width (or width "24")}]
+    {:ry "2", :rx "2", :y "2", :x "5", :height "20", :width "14"}]
    [:path {:d "M12.667 8 10 12h4l-2.667 4"}]]))
 (defn
  smartphone-nfc
@@ -25481,12 +24051,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "1",
-     :y "6",
-     :x "2",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "1", :y "6", :x "2", :height "12", :width "7"}]
    [:path {:d "M13 8.32a7.43 7.43 0 0 1 0 7.36"}]
    [:path {:d "M16.46 6.21a11.76 11.76 0 0 1 0 11.58"}]
    [:path {:d "M19.91 4.1a15.91 15.91 0 0 1 .01 15.8"}]]))
@@ -25505,12 +24070,7 @@
     :strokeLinecap "round",
     :height (or height "24")}
    [:rect
-    {:ry "2",
-     :rx "2",
-     :y "2",
-     :x "5",
-     :height (or height "24"),
-     :width (or width "24")}]
+    {:ry "2", :rx "2", :y "2", :x "5", :height "20", :width "14"}]
    [:path {:d "M12 18h.01"}]]))
 (defn
  smile-plus
@@ -25727,12 +24287,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "2",
-     :x "4",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "2", :x "4", :height "20", :width "16"}]
    [:path {:d "M12 6h.01"}]
    [:circle {:r "4", :cy "14", :cx "12"}]
    [:path {:d "M12 14h.01"}]]))
@@ -25866,11 +24421,7 @@
    [:path {:d "M3 7h.01"}]
    [:path {:d "M7 9h.01"}]
    [:path {:d "M3 11h.01"}]
-   [:rect
-    {:y "5",
-     :x "15",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:y "5", :x "15", :height "4", :width "4"}]
    [:path {:d "m19 9 2 2v10c0 .6-.4 1-1 1h-6c-.6 0-1-.4-1-1V11l2-2"}]
    [:path {:d "m13 14 8-2"}]
    [:path {:d "m13 19 8-2"}]]))
@@ -25910,12 +24461,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "M17 12h-2l-2 5-2-10-2 5H7"}]]))
 (defn
  square-arrow-down-left
@@ -25931,12 +24477,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "m16 8-8 8"}]
    [:path {:d "M16 16H8V8"}]]))
 (defn
@@ -25953,12 +24494,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "m8 8 8 8"}]
    [:path {:d "M16 8v8H8"}]]))
 (defn
@@ -25975,12 +24511,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "M12 8v8"}]
    [:path {:d "m8 12 4 4 4-4"}]]))
 (defn
@@ -25997,12 +24528,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "m12 8-4 4 4 4"}]
    [:path {:d "M16 12H8"}]]))
 (defn
@@ -26091,12 +24617,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "M8 12h8"}]
    [:path {:d "m12 16 4-4-4-4"}]]))
 (defn
@@ -26113,12 +24634,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "M8 16V8h8"}]
    [:path {:d "M16 16 8 8"}]]))
 (defn
@@ -26135,12 +24651,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "M8 8h8v8"}]
    [:path {:d "m8 16 8-8"}]]))
 (defn
@@ -26157,12 +24668,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "m16 12-4-4-4 4"}]
    [:path {:d "M12 16V8"}]]))
 (defn
@@ -26179,12 +24685,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "M12 8v8"}]
    [:path {:d "m8.5 14 7-4"}]
    [:path {:d "m8.5 10 7 4"}]]))
@@ -26226,12 +24727,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "M9 8h7"}]
    [:path {:d "M8 12h6"}]
    [:path {:d "M11 16h5"}]]))
@@ -26267,12 +24763,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "m9 12 2 2 4-4"}]]))
 (defn
  square-chevron-down
@@ -26288,12 +24779,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "m16 10-4 4-4-4"}]]))
 (defn
  square-chevron-left
@@ -26309,12 +24795,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "m14 16-4-4 4-4"}]]))
 (defn
  square-chevron-right
@@ -26330,12 +24811,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "m10 8 4 4-4 4"}]]))
 (defn
  square-chevron-up
@@ -26351,12 +24827,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "m8 14 4-4 4 4"}]]))
 (defn
  square-code
@@ -26374,12 +24845,7 @@
     :height (or height "24")}
    [:path {:d "M10 9.5 8 12l2 2.5"}]
    [:path {:d "m14 9.5 2 2.5-2 2.5"}]
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]]))
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]]))
 (defn
  square-dashed-bottom-code
  ([] (square-dashed-bottom-code {}))
@@ -26516,12 +24982,7 @@
     :strokeLinecap "round",
     :height (or height "24")}
    [:rect
-    {:ry "2",
-     :rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+    {:ry "2", :rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:line {:y2 "12", :y1 "12", :x2 "16", :x1 "8"}]
    [:line {:y2 "16", :y1 "16", :x2 "12", :x1 "12"}]
    [:line {:y2 "8", :y1 "8", :x2 "12", :x1 "12"}]]))
@@ -26539,12 +25000,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:circle {:r "1", :cy "12", :cx "12"}]]))
 (defn
  square-equal
@@ -26560,12 +25016,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "M7 10h10"}]
    [:path {:d "M7 14h10"}]]))
 (defn
@@ -26583,12 +25034,7 @@
     :strokeLinecap "round",
     :height (or height "24")}
    [:rect
-    {:ry "2",
-     :rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+    {:ry "2", :rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "M9 17c2 0 2.8-1 2.8-2.8V10c0-2 1-3.3 3.2-3"}]
    [:path {:d "M9 11.2h5.7"}]]))
 (defn
@@ -26605,12 +25051,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "M8 7v7"}]
    [:path {:d "M12 7v4"}]
    [:path {:d "M16 7v9"}]]))
@@ -26628,12 +25069,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "M7 7v10"}]
    [:path {:d "M11 7v10"}]
    [:path {:d "m15 7 2 10"}]]))
@@ -26651,12 +25087,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "M8 16V8l4 4 4-4v8"}]]))
 (defn
  square-menu
@@ -26672,12 +25103,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "M7 8h10"}]
    [:path {:d "M7 12h10"}]
    [:path {:d "M7 16h10"}]]))
@@ -26695,12 +25121,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "M8 12h8"}]]))
 (defn
  square-mouse-pointer
@@ -26756,12 +25177,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "M9 17V7h4a3 3 0 0 1 0 6H9"}]]))
 (defn
  square-pen
@@ -26796,12 +25212,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "m15 9-6 6"}]
    [:path {:d "M9 9h.01"}]
    [:path {:d "M15 15h.01"}]]))
@@ -26819,12 +25230,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "M7 7h10"}]
    [:path {:d "M10 7v10"}]
    [:path {:d "M16 17a2 2 0 0 1-2-2V7"}]]))
@@ -26842,12 +25248,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "M12 12H9.5a2.5 2.5 0 0 1 0-5H17"}]
    [:path {:d "M12 7v10"}]
    [:path {:d "M16 7v10"}]]))
@@ -26865,12 +25266,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "m9 8 6 4-6 4Z"}]]))
 (defn
  square-plus
@@ -26886,12 +25282,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "M8 12h8"}]
    [:path {:d "M12 8v8"}]]))
 (defn
@@ -26910,12 +25301,7 @@
     :height (or height "24")}
    [:path {:d "M12 7v4"}]
    [:path {:d "M7.998 9.003a5 5 0 1 0 8-.005"}]
-   [:rect
-    {:rx "2",
-     :height (or height "24"),
-     :width (or width "24"),
-     :y "3",
-     :x "3"}]]))
+   [:rect {:rx "2", :height "18", :width "18", :y "3", :x "3"}]]))
 (defn
  square-radical
  ([] (square-radical {}))
@@ -26931,12 +25317,7 @@
     :strokeLinecap "round",
     :height (or height "24")}
    [:path {:d "M7 12h2l2 5 2-10h4"}]
-   [:rect
-    {:rx "2",
-     :height (or height "24"),
-     :width (or width "24"),
-     :y "3",
-     :x "3"}]]))
+   [:rect {:rx "2", :height "18", :width "18", :y "3", :x "3"}]]))
 (defn
  square-round-corner
  ([] (square-round-corner {}))
@@ -26968,12 +25349,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "2",
-     :x "2",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "2", :x "2", :height "20", :width "20"}]
    [:circle {:r "2", :cy "8", :cx "8"}]
    [:path {:d "M9.414 9.414 12 12"}]
    [:path {:d "M14.8 14.8 18 18"}]
@@ -26993,12 +25369,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "M16 8.9V7H8l4 5-4 5h8v-1.9"}]]))
 (defn
  square-slash
@@ -27014,12 +25385,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:line {:y2 "9", :y1 "15", :x2 "15", :x1 "9"}]]))
 (defn
  square-split-horizontal
@@ -27069,18 +25435,8 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :height (or height "24"),
-     :width (or width "24"),
-     :y "3",
-     :x "3"}]
-   [:rect
-    {:rx "1",
-     :height (or height "24"),
-     :width (or width "24"),
-     :y "8",
-     :x "8"}]]))
+   [:rect {:rx "2", :height "18", :width "18", :y "3", :x "3"}]
+   [:rect {:rx "1", :height "8", :width "8", :y "8", :x "8"}]]))
 (defn
  square-stack
  ([] (square-stack {}))
@@ -27099,12 +25455,7 @@
     {:d "M4 10c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h4c1.1 0 2 .9 2 2"}]
    [:path
     {:d "M10 16c-1.1 0-2-.9-2-2v-4c0-1.1.9-2 2-2h4c1.1 0 2 .9 2 2"}]
-   [:rect
-    {:rx "2",
-     :y "14",
-     :x "14",
-     :height (or height "24"),
-     :width (or width "24")}]]))
+   [:rect {:rx "2", :y "14", :x "14", :height "8", :width "8"}]]))
 (defn
  square-terminal
  ([] (square-terminal {}))
@@ -27122,12 +25473,7 @@
    [:path {:d "m7 11 2-2-2-2"}]
    [:path {:d "M11 13h4"}]
    [:rect
-    {:ry "2",
-     :rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]]))
+    {:ry "2", :rx "2", :y "3", :x "3", :height "18", :width "18"}]]))
 (defn
  square-user-round
  ([] (square-user-round {}))
@@ -27144,12 +25490,7 @@
     :height (or height "24")}
    [:path {:d "M18 21a6 6 0 0 0-12 0"}]
    [:circle {:r "4", :cy "11", :cx "12"}]
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]]))
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]]))
 (defn
  square-user
  ([] (square-user {}))
@@ -27164,12 +25505,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:circle {:r "3", :cy "10", :cx "12"}]
    [:path {:d "M7 21v-2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v2"}]]))
 (defn
@@ -27187,12 +25523,7 @@
     :strokeLinecap "round",
     :height (or height "24")}
    [:rect
-    {:ry "2",
-     :rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+    {:ry "2", :rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "m15 9-6 6"}]
    [:path {:d "m9 9 6 6"}]]))
 (defn
@@ -27209,12 +25540,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]]))
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]]))
 (defn
  squircle
  ([] (squircle {}))
@@ -27452,18 +25778,8 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "4",
-     :x "2",
-     :height (or height "24"),
-     :width (or width "24")}]
-   [:rect
-    {:rx "2",
-     :y "14",
-     :x "2",
-     :height (or height "24"),
-     :width (or width "24")}]]))
+   [:rect {:rx "2", :y "4", :x "2", :height "6", :width "20"}]
+   [:rect {:rx "2", :y "14", :x "2", :height "6", :width "20"}]]))
 (defn
  stretch-vertical
  ([] (stretch-vertical {}))
@@ -27478,18 +25794,8 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "2",
-     :x "4",
-     :height (or height "24"),
-     :width (or width "24")}]
-   [:rect
-    {:rx "2",
-     :y "2",
-     :x "14",
-     :height (or height "24"),
-     :width (or width "24")}]]))
+   [:rect {:rx "2", :y "2", :x "4", :height "20", :width "6"}]
+   [:rect {:rx "2", :y "2", :x "14", :height "20", :width "6"}]]))
 (defn
  strikethrough
  ([] (strikethrough {}))
@@ -27859,12 +26165,7 @@
    [:path {:d "M12 9V3"}]
    [:path {:d "M3 15h18"}]
    [:path {:d "M3 9h18"}]
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]]))
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]]))
 (defn
  table-cells-split
  ([] (table-cells-split {}))
@@ -27882,12 +26183,7 @@
    [:path {:d "M12 15V9"}]
    [:path {:d "M3 15h18"}]
    [:path {:d "M3 9h18"}]
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]]))
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]]))
 (defn
  table-columns-split
  ([] (table-columns-split {}))
@@ -27948,12 +26244,7 @@
     :strokeLinecap "round",
     :height (or height "24")}
    [:path {:d "M15 3v18"}]
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "M21 9H3"}]
    [:path {:d "M21 15H3"}]]))
 (defn
@@ -27996,12 +26287,7 @@
     :strokeLinecap "round",
     :height (or height "24")}
    [:path {:d "M12 3v18"}]
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "M3 9h18"}]
    [:path {:d "M3 15h18"}]]))
 (defn
@@ -28018,12 +26304,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "8",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "8", :x "3", :height "14", :width "10"}]
    [:path
     {:d "M5 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2h-2.4"}]
    [:path {:d "M8 18h.01"}]]))
@@ -28042,12 +26323,7 @@
     :strokeLinecap "round",
     :height (or height "24")}
    [:rect
-    {:ry "2",
-     :rx "2",
-     :y "2",
-     :x "4",
-     :height (or height "24"),
-     :width (or width "24")}]
+    {:ry "2", :rx "2", :y "2", :x "4", :height "20", :width "16"}]
    [:line {:y2 "18", :y1 "18", :x2 "12.01", :x1 "12"}]]))
 (defn
  tablets
@@ -28749,12 +27025,7 @@
    [:path {:d "M6 10V8"}]
    [:path {:d "M6 14v1"}]
    [:path {:d "M6 19v2"}]
-   [:rect
-    {:rx "2",
-     :height (or height "24"),
-     :width (or width "24"),
-     :y "8",
-     :x "2"}]]))
+   [:rect {:rx "2", :height "13", :width "20", :y "8", :x "2"}]]))
 (defn
  tickets
  ([] (tickets {}))
@@ -28773,12 +27044,7 @@
    [:path {:d "M6 10V8"}]
    [:path {:d "M6 14v1"}]
    [:path {:d "M6 19v2"}]
-   [:rect
-    {:rx "2",
-     :height (or height "24"),
-     :width (or width "24"),
-     :y "8",
-     :x "2"}]]))
+   [:rect {:rx "2", :height "13", :width "20", :y "8", :x "2"}]]))
 (defn
  timer-off
  ([] (timer-off {}))
@@ -28848,12 +27114,7 @@
     :strokeLinecap "round",
     :height (or height "24")}
    [:rect
-    {:ry "6",
-     :rx "6",
-     :y "6",
-     :x "2",
-     :height (or height "24"),
-     :width (or width "24")}]
+    {:ry "6", :rx "6", :y "6", :x "2", :height "12", :width "20"}]
    [:circle {:r "2", :cy "12", :cx "8"}]]))
 (defn
  toggle-right
@@ -28870,12 +27131,7 @@
     :strokeLinecap "round",
     :height (or height "24")}
    [:rect
-    {:ry "6",
-     :rx "6",
-     :y "6",
-     :x "2",
-     :height (or height "24"),
-     :width (or width "24")}]
+    {:ry "6", :rx "6", :y "6", :x "2", :height "12", :width "20"}]
    [:circle {:r "2", :cy "12", :cx "16"}]]))
 (defn
  toilet
@@ -28965,12 +27221,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "4",
-     :x "2",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "4", :x "2", :height "16", :width "20"}]
    [:path {:d "M2 14h20"}]
    [:path {:d "M12 20v-6"}]]))
 (defn
@@ -29010,12 +27261,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "1",
-     :y "8",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "1", :y "8", :x "3", :height "12", :width "18"}]
    [:path {:d "M10 8V5c0-.6-.4-1-1-1H6a1 1 0 0 0-1 1v3"}]
    [:path {:d "M19 8V5c0-.6-.4-1-1-1h-3a1 1 0 0 0-1 1v3"}]]))
 (defn
@@ -29143,12 +27389,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "4",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "4", :height "16", :width "16"}]
    [:path {:d "M4 11h16"}]
    [:path {:d "M12 3v8"}]
    [:path {:d "m8 19-2 3"}]
@@ -29308,19 +27549,9 @@
     :strokeLinecap "round",
     :height (or height "24")}
    [:rect
-    {:ry "2",
-     :rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
-   [:rect
-    {:y "7", :x "7", :height (or height "24"), :width (or width "24")}]
-   [:rect
-    {:y "7",
-     :x "14",
-     :height (or height "24"),
-     :width (or width "24")}]]))
+    {:ry "2", :rx "2", :y "3", :x "3", :height "18", :width "18"}]
+   [:rect {:y "7", :x "7", :height "9", :width "3"}]
+   [:rect {:y "7", :x "14", :height "5", :width "3"}]]))
 (defn
  trending-down
  ([] (trending-down {}))
@@ -29529,12 +27760,7 @@
     {:d
      "M10 7.75a.75.75 0 0 1 1.142-.638l3.664 2.249a.75.75 0 0 1 0 1.278l-3.664 2.25a.75.75 0 0 1-1.142-.64z"}]
    [:path {:d "M7 21h10"}]
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "2",
-     :height (or height "24"),
-     :width (or width "24")}]]))
+   [:rect {:rx "2", :y "3", :x "2", :height "14", :width "20"}]]))
 (defn
  tv-minimal
  ([] (tv-minimal {}))
@@ -29550,12 +27776,7 @@
     :strokeLinecap "round",
     :height (or height "24")}
    [:path {:d "M7 21h10"}]
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "2",
-     :height (or height "24"),
-     :width (or width "24")}]]))
+   [:rect {:rx "2", :y "3", :x "2", :height "14", :width "20"}]]))
 (defn
  tv
  ([] (tv {}))
@@ -29571,12 +27792,7 @@
     :strokeLinecap "round",
     :height (or height "24")}
    [:rect
-    {:ry "2",
-     :rx "2",
-     :y "7",
-     :x "2",
-     :height (or height "24"),
-     :width (or width "24")}]
+    {:ry "2", :rx "2", :y "7", :x "2", :height "15", :width "20"}]
    [:polyline {:points "17 2 12 7 7 2"}]]))
 (defn
  twitch
@@ -29804,18 +28020,8 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "1",
-     :y "4",
-     :x "5",
-     :height (or height "24"),
-     :width (or width "24")}]
-   [:rect
-    {:rx "1",
-     :y "14",
-     :x "11",
-     :height (or height "24"),
-     :width (or width "24")}]]))
+   [:rect {:rx "1", :y "4", :x "5", :height "6", :width "8"}]
+   [:rect {:rx "1", :y "14", :x "11", :height "6", :width "8"}]]))
 (defn
  university
  ([] (university {}))
@@ -30361,12 +28567,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:circle {:fill "currentColor", :r ".5", :cy "7.5", :cx "7.5"}]
    [:path {:d "m7.9 7.9 2.7 2.7"}]
    [:circle {:fill "currentColor", :r ".5", :cy "7.5", :cx "16.5"}]
@@ -30483,12 +28684,7 @@
     :height (or height "24")}
    [:path {:d "m2 8 2 2-2 2 2 2-2 2"}]
    [:path {:d "m22 8-2 2 2 2-2 2 2 2"}]
-   [:rect
-    {:rx "1",
-     :y "5",
-     :x "8",
-     :height (or height "24"),
-     :width (or width "24")}]]))
+   [:rect {:rx "1", :y "5", :x "8", :height "14", :width "8"}]]))
 (defn
  video-off
  ([] (video-off {}))
@@ -30526,12 +28722,7 @@
    [:path
     {:d
      "m16 13 5.223 3.482a.5.5 0 0 0 .777-.416V7.87a.5.5 0 0 0-.752-.432L16 10.5"}]
-   [:rect
-    {:rx "2",
-     :height (or height "24"),
-     :width (or width "24"),
-     :y "6",
-     :x "2"}]]))
+   [:rect {:rx "2", :height "12", :width "14", :y "6", :x "2"}]]))
 (defn
  videotape
  ([] (videotape {}))
@@ -30546,12 +28737,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "4",
-     :x "2",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "4", :x "2", :height "16", :width "20"}]
    [:path {:d "M2 8h20"}]
    [:circle {:r "2", :cy "14", :cx "8"}]
    [:path {:d "M8 12h8"}]
@@ -30738,12 +28924,7 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "18", :width "18"}]
    [:path {:d "M3 9a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2"}]
    [:path
     {:d
@@ -30870,11 +29051,7 @@
      "M22 8.35V20a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8.35A2 2 0 0 1 3.26 6.5l8-3.2a2 2 0 0 1 1.48 0l8 3.2A2 2 0 0 1 22 8.35Z"}]
    [:path {:d "M6 18h12"}]
    [:path {:d "M6 14h12"}]
-   [:rect
-    {:y "10",
-     :x "6",
-     :height (or height "24"),
-     :width (or width "24")}]]))
+   [:rect {:y "10", :x "6", :height "12", :width "12"}]]))
 (defn
  washing-machine
  ([] (washing-machine {}))
@@ -30891,12 +29068,7 @@
     :height (or height "24")}
    [:path {:d "M3 6h3"}]
    [:path {:d "M17 6h.01"}]
-   [:rect
-    {:rx "2",
-     :y "2",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "2", :x "3", :height "20", :width "18"}]
    [:circle {:r "5", :cy "13", :cx "12"}]
    [:path {:d "M12 18a2.5 2.5 0 0 0 0-5 2.5 2.5 0 0 1 0-5"}]]))
 (defn
@@ -31330,19 +29502,9 @@
     :viewBox "0 0 24 24",
     :strokeLinecap "round",
     :height (or height "24")}
-   [:rect
-    {:rx "2",
-     :y "3",
-     :x "3",
-     :height (or height "24"),
-     :width (or width "24")}]
+   [:rect {:rx "2", :y "3", :x "3", :height "8", :width "8"}]
    [:path {:d "M7 11v4a2 2 0 0 0 2 2h4"}]
-   [:rect
-    {:rx "2",
-     :y "13",
-     :x "13",
-     :height (or height "24"),
-     :width (or width "24")}]]))
+   [:rect {:rx "2", :y "13", :x "13", :height "8", :width "8"}]]))
 (defn
  worm
  ([] (worm {}))
