@@ -4,13 +4,12 @@
             [clojure.string :as str]
             [clojure.pprint :as pp]))
 
-
 ;; Helper function to convert kebab-case to camelCase for attribute names
 (defn- kebab->camel [s]
   (str/replace s #"-(.)" (fn [[_ c]] (str/upper-case c))))
 
 ;; Process attributes map to convert from XML format to Hiccup format
-(defn- process-attrs [attrs]
+(defn- process-attrs [process-dimensions? attrs]
   (reduce-kv
    (fn [m k v]
      (let [key-name (name k)
@@ -20,8 +19,8 @@
                        (= key-name "xmlns") key-name
                        :else (keyword (kebab->camel key-name)))]
        (cond
-         (= key-name "width") (assoc m clean-key `(~'or ~'width "24"))
-         (= key-name "height") (assoc m clean-key `(~'or ~'height "24"))
+         (and process-dimensions? (= key-name "width")) (assoc m clean-key `(~'or ~'width "24"))
+         (and process-dimensions? (= key-name "height")) (assoc m clean-key `(~'or ~'height "24"))
          :else (assoc m clean-key v))))
    {}
    attrs))
@@ -32,7 +31,8 @@
     element
     (let [{:keys [tag attrs content]} element
           hiccup-tag (keyword (name tag))
-          hiccup-attrs (process-attrs attrs)
+          process-dimensions? (= :svg hiccup-tag)
+          hiccup-attrs (process-attrs process-dimensions? attrs)
           hiccup-content (map xml->hiccup content)]
       (into [hiccup-tag hiccup-attrs] hiccup-content))))
 
